@@ -1,3 +1,11 @@
 .Header {
   grid-column: 3;
+  display: grid;
+  grid-template-rows: repeat(5, 10rem);
+  &-Home {
+    grid-row: 1;
+  }
+  &-Skills {
+    grid-row: 2;
+  }
 }
