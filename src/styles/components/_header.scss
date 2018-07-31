@@ -39,5 +39,11 @@
         background: $darkGrey;
       }
     }
+    &-Blog {
+      grid-row: 6;
+      &-Active {
+        background: $blogBlue;
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 .PrimaryLayout {
   display: grid;
   grid-template-columns: 10% 65% 15% 10%;
-  grid-template-rows: 1rem 20rem 20rem 5rem 55rem;
+  grid-template-rows: 1rem 20rem 24rem 55rem max-content;
 }
