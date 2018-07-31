@@ -8,39 +8,58 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  background: #222;
   &-Link {
     &-Home {
       grid-row: 1;
+      &:hover {
+        background: $homeGreenDark;
+      }
       &-Active {
         background: $homeGreenDark;
       }
     }
     &-Skills {
       grid-row: 2;
+      &:hover {
+        background: $skillsDarkBlue;
+      }
       &-Active {
         background: $skillsDarkBlue;
       }
     }
     &-About {
       grid-row: 3;
+      &:hover {
+        background: $aboutPurpleDark;
+      }
       &-Active {
         background: $aboutPurpleDark;
       }
     }
     &-Portfolio {
       grid-row: 4;
+      &:hover {
+        background: $darkRed;
+      }
       &-Active {
         background: $darkRed;
       }
     }
     &-Contact {
       grid-row: 5;
+      &:hover {
+        background: $darkGrey;
+      }
       &-Active {
         background: $darkGrey;
       }
     }
     &-Blog {
       grid-row: 6;
+      &:hover {
+        background: $blogBlue;
+      }
       &-Active {
         background: $blogBlue;
       }
