@@ -2,4 +2,25 @@
   background: $skillsDarkBlue;
   grid-column: 2;
   grid-row: 1 / -1;
+  color: $headerWhite;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: max-content 5rem min-content;
+  // justify-content: center;
+  justify-items: center;
+  text-align: center;
+  &-WorkingOn {
+    text-align: center;
+    grid-column: 3;
+    &-CSS,
+    &-JavaScript,
+    &-React, 
+    &-Other,
+    &-Soft {
+      padding: 1rem 1rem 1rem 0;
+    }
+    &-CSS {
+      grid-column: 1;
+    }
+  }
 }
