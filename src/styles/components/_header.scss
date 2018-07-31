@@ -53,10 +53,10 @@
     grid-row: 5;
     @include headerRoll;
     &:hover {
-      background: $blogBlue;
+      background: $blogBrown;
     }
     &-Active {
-      background: $blogBlue;
+      background: $blogBrown;
     }
   }
   &-Contact {

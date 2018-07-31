@@ -1,6 +1,12 @@
 .Blog {
-  background: $blogBlue;
+  background: $blogBrown;
   color: $headerWhite;
   grid-column: 2;
   grid-row: 1 / -1;
+  &-Content {
+    background: $blogBrown;
+    grid-column: 2;
+    grid-row: 1 / -1;
+    word-break: break-all;
+  }
 }

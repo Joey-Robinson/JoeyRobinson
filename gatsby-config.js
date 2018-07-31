@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Me',
+    title: 'Joey Robinson',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,7 +13,8 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: `pages`
-      },
+      }
     },
+    `gatsby-transformer-remark`
   ],
 }
