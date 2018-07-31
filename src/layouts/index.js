@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import '../styles/main.scss'
 import Footer from '../components/footer';
+import RotatingCard from '../components/rotatingcard';
 
 const Layout = ({ children, data }) => (
   <div>
@@ -17,6 +18,7 @@ const Layout = ({ children, data }) => (
     />
     <div className="PrimaryLayout">
     <Header siteTitle={data.site.siteMetadata.title} />
+    <RotatingCard />
       {children()}
     <Footer />
     </div>
