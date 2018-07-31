@@ -2,4 +2,11 @@
   background: $aboutPurpleDark;
   grid-column: 2;
   grid-row: 1 / -1;
+  color: $headerWhite;
+  padding: 0 2.5rem 0 2.5rem;
+  display: grid;
+  & h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
 }
