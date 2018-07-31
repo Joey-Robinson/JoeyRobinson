@@ -10,12 +10,12 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'Site of Joey Robinson', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
     <div className="PrimaryLayout">
+    <Header siteTitle={data.site.siteMetadata.title} />
       {children()}
     </div>
   </div>
