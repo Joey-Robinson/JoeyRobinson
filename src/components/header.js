@@ -3,15 +3,30 @@ import Link from 'gatsby-link'
 
 const Header = ({ siteTitle }) => (
   <div className="Header">
-    <Link activeClassName="Header-Link-Home-Active" exact={true} className="Header-Link-Home" to="/">
+    <Link activeClassName="Header-Home-Active" exact={true} className="Header-Home" to="/">
       <span className="Header-Home-Visible">Home</span>
       <span className="Header-Home-Invisible">Phone</span>
     </Link>
-    <Link activeClassName="Header-Link-Skills-Active" className="Header-Link-Skills" to="/skills">Skills</Link>
-    <Link activeClassName="Header-Link-About-Active" className="Header-Link-About" to="/about">About</Link>
-    <Link activeClassName="Header-Link-Portfolio-Active" className="Header-Link-Portfolio" to="/portfolio">Portfolio</Link>
-    <Link activeClassName="Header-Link-Blog-Active" className="Header-Link-Blog" to="/blog">Blog</Link>
-    <Link activeClassName="Header-Link-Contact-Active" className="Header-Link-Contact" to="/contact">Contact</Link>
+    <Link activeClassName="Header-Skills-Active" className="Header-Skills" to="/skills">
+      <span className="Header-Skills-Visible">Skills</span>
+      <span className="Header-Skills-Invisible">Skills</span>   
+    </Link>
+    <Link activeClassName="Header-About-Active" className="Header-About" to="/about">
+      <span className="Header-About-Visible">About</span>
+      <span className="Header-About-Invisible">Me</span>
+    </Link>
+    <Link activeClassName="Header-Portfolio-Active" className="Header-Portfolio" to="/portfolio">
+      <span className="Header-Portfolio-Visible">Portfolio</span>
+      <span className="Header-Portfolio-Invisible">Portfolio</span>
+    </Link>
+    <Link activeClassName="Header-Blog-Active" className="Header-Blog" to="/blog">
+      <span className="Header-Blog-Visible">Blog</span>
+      <span className="Header-Blog-Invisible">Blog</span>
+    </Link>
+    <Link activeClassName="Header-Contact-Active" className="Header-Contact" to="/contact">
+      <span className="Header-Contact-Visible">Contact</span>
+      <span className="Header-Contact-Invisible">Contact</span>
+    </Link>
   </div>
 )
 

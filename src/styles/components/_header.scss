@@ -9,60 +9,64 @@
   padding: 0;
   margin: 0;
   background: #222;
-  &-Link {
-    &-Home {
-      grid-row: 1;
-      &:hover {
-        background: $homeGreenDark;
-      }
-      &-Active {
-        background: $homeGreenDark;
-      }
+  &-Home {
+    grid-row: 1;
+    @include headerRoll;
+    &:hover {
+      background: $homeGreenDark;
     }
-    &-Skills {
-      grid-row: 2;
-      &:hover {
-        background: $skillsDarkBlue;
-      }
-      &-Active {
-        background: $skillsDarkBlue;
-      }
+    &-Active {
+      background: $homeGreenDark;
     }
-    &-About {
-      grid-row: 3;
-      &:hover {
-        background: $aboutPurpleDark;
-      }
-      &-Active {
-        background: $aboutPurpleDark;
-      }
+  }
+  &-Skills {
+    grid-row: 2;
+    @include headerRoll;
+    &:hover {
+      background: $skillsDarkBlue;
     }
-    &-Portfolio {
-      grid-row: 4;
-      &:hover {
-        background: $darkRed;
-      }
-      &-Active {
-        background: $darkRed;
-      }
+    &-Active {
+      background: $skillsDarkBlue;
     }
-    &-Contact {
-      grid-row: 5;
-      &:hover {
-        background: $darkGrey;
-      }
-      &-Active {
-        background: $darkGrey;
-      }
+  }
+  &-About {
+    grid-row: 3;
+    @include headerRoll;
+    &:hover {
+      background: $aboutPurpleDark;
     }
-    &-Blog {
-      grid-row: 6;
-      &:hover {
-        background: $blogBlue;
-      }
-      &-Active {
-        background: $blogBlue;
-      }
+    &-Active {
+      background: $aboutPurpleDark;
+    }
+  }
+  &-Portfolio {
+    grid-row: 4;
+    @include headerRoll;
+    &:hover {
+      background: $darkRed;
+    }
+    &-Active {
+      background: $darkRed;
+    }
+  }
+  &-Blog {
+    grid-row: 5;
+    @include headerRoll;
+    &:hover {
+      background: $blogBlue;
+    }
+    &-Active {
+      background: $blogBlue;
+    }
+  }
+  &-Contact {
+    grid-row: 6;
+    @include headerRoll;
+    &:hover {
+      background: $darkGrey;
+    }
+    &-Active {
+      background: $darkGrey;
     }
   }
 }
