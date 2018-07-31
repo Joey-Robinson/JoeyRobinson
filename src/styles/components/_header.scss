@@ -26,5 +26,11 @@
         background: $aboutPurpleDark;
       }
     }
+    &-Contact {
+      grid-row: 4;
+      &-Active {
+        background: $darkGrey;
+      }
+    }
   }
 }
