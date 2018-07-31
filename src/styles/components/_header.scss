@@ -1,8 +1,8 @@
 .Header {
   grid-column: 3;
   display: grid;
-  grid-template-rows: repeat(5, 3.5rem);
-  grid-gap: 2rem;
+  grid-template-rows: repeat(5, 4rem);
+  grid-gap: 1rem;
   font-size: 2rem;
   text-align: center;
   padding: 0;
@@ -26,8 +26,14 @@
         background: $aboutPurpleDark;
       }
     }
-    &-Contact {
+    &-Portfolio {
       grid-row: 4;
+      &-Active {
+        background: $darkRed;
+      }
+    }
+    &-Contact {
+      grid-row: 5;
       &-Active {
         background: $darkGrey;
       }
