@@ -14,6 +14,8 @@ import MenuContainer from '../components/sidebar/MenuContainer';
 import Todo from '../components/Todo/Todo';
 import VisibilityToggle from '../components/visibilitytoggle';
 import WeightConverter from '../components/weightconverter';
+import DnD from '../components/dndjs';
+import RedditSearch from '../components/redditsearch';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -45,6 +47,10 @@ const Portfolio = () => (
       <ImageGallery />
       <br/>
       <ImageSlider />
+      <br/>
+      <DnD />
+      <br/>
+      <RedditSearch />
     </div>
     <div className="Portfolio-Reusable">
       <ReusableButton />
@@ -58,6 +64,7 @@ const Portfolio = () => (
       <VisibilityToggle />
       <br/>
       <WeightConverter />
+      <br/>
     </div>
   </div>
 )
