@@ -15,16 +15,6 @@ class GitHubSearch extends Component {
   render() {
     return (
       <div>
-        <a 
-          href="https://github.com/elamahpla/GithubSearchv2" 
-          target="_blank" 
-        >
-          <img
-            src="https://i.imgur.com/RppIeT6.png" 
-            alt="Joey Robinson GitHub User Search"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-GitHub"
           onClick={this.handleToggleVisibility}
@@ -35,6 +25,14 @@ class GitHubSearch extends Component {
           <div className="Portfolio-Toggle">
             <p>
               This is (another) GitHub search app. I sort of like this one a lot. I enjoy working with API's, despite me being (at times) overwhelmed by them
+            </p>
+            <p>
+            <a 
+              href="https://github.com/elamahpla/GithubSearchv2" 
+              target="_blank" 
+            >
+              GitHub Repo
+            </a>
             </p>
           </div>
         )}

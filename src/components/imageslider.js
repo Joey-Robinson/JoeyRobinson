@@ -15,16 +15,6 @@ class ImageSlider extends Component {
   render() {
     return (
       <div>
-        <a 
-          href="https://github.com/elamahpla/ImageSlider" 
-          target="_blank" 
-        >
-          <img
-            src="https://i.imgur.com/IBuOBxp.jpg" 
-            alt="Joey Robinson Image Slider"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-Slider"
           onClick={this.handleToggleVisibility}
@@ -35,6 +25,14 @@ class ImageSlider extends Component {
           <div className="Portfolio-Toggle">
             <p>
               Full screen image slider
+            </p>
+            <p>
+            <a 
+              href="https://github.com/elamahpla/ImageSlider" 
+              target="_blank" 
+            >
+              GitHub Repo
+            </a>
             </p>
           </div>
         )}

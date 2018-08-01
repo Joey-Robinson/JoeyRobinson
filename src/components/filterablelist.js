@@ -15,13 +15,6 @@ class FilterableList extends Component {
   render() {
     return (
       <div>
-        <a href="https://github.com/elamahpla/FilterableList" target="_blank">
-          <img
-            src="https://i.imgur.com/R97S0yP.png" 
-            alt="Joey Robinson Filterable List"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-Filterable"
           onClick={this.handleToggleVisibility}
@@ -32,6 +25,11 @@ class FilterableList extends Component {
           <div className="Portfolio-Toggle">
             <p>
               Filterable contact list. Uses inline JS. No localStorage
+            </p>
+            <p>
+            <a href="https://github.com/elamahpla/FilterableList" target="_blank">
+              GitHub Repo
+            </a>
             </p>
           </div>
         )}

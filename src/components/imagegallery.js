@@ -15,13 +15,6 @@ class ImageGallery extends Component {
   render() {
     return (
       <div>
-        <a href="https://github.com/elamahpla/ImageGallery" target="_blank">
-          <img
-            src="https://i.imgur.com/M1S5X2F.png" 
-            alt="Joey Robinson Image Gallery"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-Gallery"
           onClick={this.handleToggleVisibility}
@@ -33,6 +26,11 @@ class ImageGallery extends Component {
             <p>
               I made this Image Gallery for a dungeon I was a part of where knowing the location of the hidden chest is can reward you 
               with various treasures. So I made an image gallery using CSS Grid and some JS and hosted it on gh-pages. 
+            </p>
+            <p>
+            <a href="https://github.com/elamahpla/ImageGallery" target="_blank">
+              GitHub Repo
+            </a>
             </p>
           </div>
         )}
