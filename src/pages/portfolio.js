@@ -11,6 +11,9 @@ import ImageSlider from '../components/imageslider';
 import ReusableButton from '../components/reusablebutton';
 import Modal from '../components/modal/Modal';
 import MenuContainer from '../components/sidebar/MenuContainer';
+import Todo from '../components/Todo/Todo';
+import VisibilityToggle from '../components/visibilitytoggle';
+import WeightConverter from '../components/weightconverter';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -46,6 +49,12 @@ const Portfolio = () => (
       <Modal />
       <br/>
       <MenuContainer />
+      <br/>
+      <Todo />
+      <br/>
+      <VisibilityToggle />
+      <br/>
+      <WeightConverter />
     </div>
   </div>
 )
