@@ -16,6 +16,8 @@ import VisibilityToggle from '../components/visibilitytoggle';
 import WeightConverter from '../components/weightconverter';
 import DnD from '../components/dndjs';
 import RedditSearch from '../components/redditsearch';
+import RatingSystem from '../components/ratingsystem';
+import FullCrud from '../components/fullcrud';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -51,6 +53,10 @@ const Portfolio = () => (
       <DnD />
       <br/>
       <RedditSearch />
+      <br/>
+      <RatingSystem />
+      <br/>
+      <FullCrud />
     </div>
     <div className="Portfolio-Reusable">
       <ReusableButton />
