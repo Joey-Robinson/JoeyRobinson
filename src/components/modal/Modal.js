@@ -25,7 +25,7 @@ class Modal extends Component {
           onClose={this.closeModalHandler}
         >
         <div className="Modal-Div">
-          <p>Hi, this is a Modal</p>
+          <p>Hi, this is a Modal, isn't it cool!</p>
         </div>
           <Button
             className="Button-Modal-Close"

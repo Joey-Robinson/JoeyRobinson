@@ -5,7 +5,7 @@
   position: relative;
   grid-column: 3;
   grid-row: 1;
-  box-shadow: 5px 0 black;
+  box-shadow: 3.5px 0 black;
   @include respond(tabLand) {
     height: 100%;
   }
