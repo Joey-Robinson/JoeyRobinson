@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => (
   <footer className="Footer">
-    <div className="Footer-Goodbye">
-      Hey, thanks for stopping by.
+    <div className="Footer-Welcome">
+      
     </div>
     <div className="Footer-Signature">
       &copy; Joey Robinson 2018 

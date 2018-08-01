@@ -7,9 +7,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 10rem) 7.4rem;
-  &-Goodbye {
-    grid-row: 2;
-  }
   &-Signature {
     grid-row: 6;
   }
