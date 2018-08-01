@@ -8,6 +8,9 @@ import FilterableList from '../components/filterablelist';
 import GitHubSearch from '../components/githubsearch';
 import ImageGallery from '../components/imagegallery';
 import ImageSlider from '../components/imageslider';
+import ReusableButton from '../components/reusablebutton';
+import Modal from '../components/modal/Modal';
+import MenuContainer from '../components/sidebar/MenuContainer';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -36,6 +39,13 @@ const Portfolio = () => (
       <ImageGallery />
       <br/>
       <ImageSlider />
+    </div>
+    <div className="Portfolio-Reusable">
+      <ReusableButton />
+      <br/>
+      <Modal />
+      <br/>
+      <MenuContainer />
     </div>
   </div>
 )
