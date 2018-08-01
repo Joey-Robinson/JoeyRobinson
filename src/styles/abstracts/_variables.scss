@@ -7,7 +7,9 @@ $darkGrey: darken($lightGrey, 35%);
 $skillsBlue: #2070d8;
 $skillsDarkBlue: darken($skillsBlue, 20%);
 
-$aboutPurple: #901b69;
+// $aboutPurple: #901b69;
+// $aboutPurpleDark: darken($aboutPurple, 10%);
+$aboutPurple: #701853;
 $aboutPurpleDark: darken($aboutPurple, 10%);
 
 $homeGreen: #318131;
@@ -15,8 +17,8 @@ $homeGreenDark: darken($homeGreen, 12%);
 
 $blogBrown: #271614;
 
-$footerCoral: #1f5558;
-$footerCoralDark: darken($footerCoral, 10%);
+$footerCoral: #df6219;
+$footerCoralDark: darken($footerCoral, 15%);
 $headerWhite: #e2e1e1;
 
 $black: #1b1818;
