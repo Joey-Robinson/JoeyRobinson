@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './button';
 
 class JR extends Component {
   state = {
@@ -22,12 +23,12 @@ class JR extends Component {
           />
         </a>
         <br/>
-        <button
-          className="Portfolio-Button-JR"
+        <Button
+          className="Button-JR"
           onClick={this.handleToggleVisibility}
         >
             {this.state.visibility ? <p>Issues:</p> : <p>Joey Robinson:</p>}
-        </button>
+        </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
             <p>I needed a website to highlight my abilities, so this was born. As a note, the website shown in the above picture

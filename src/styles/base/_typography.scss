@@ -13,3 +13,10 @@ ul {
   width: 10rem;
   height: 10rem;
 }
+
+button {
+  @include buttonHover;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

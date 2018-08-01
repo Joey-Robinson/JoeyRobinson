@@ -30,6 +30,21 @@
   }
 }
 
+@mixin buttonHover {
+  box-shadow: .25rem .35rem black;
+  margin-bottom: .5rem;
+  &:hover {
+    box-shadow: .5rem .7rem black;
+    transform: translateY(-.5rem);
+    transition: all .3s;
+  }
+  &:active {
+    transform: translateY(.1rem);
+    transition: all .3s;
+  }
+}
+
+
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
     @media only screen and (max-width:  37.5em) { // 600px
