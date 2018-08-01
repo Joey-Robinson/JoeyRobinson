@@ -21,4 +21,16 @@
   &-Filterable {
     background: #6766af;
   }
+  &-GitHub {
+    background: coral;
+    color: black;
+  }
+  &-Gallery {
+    background: #a82f6c;
+    color: $headerWhite;
+  }
+  &-Slider {
+    background: #2b464e;
+    color: $headerWhite;
+  }
 }
