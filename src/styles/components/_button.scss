@@ -1,7 +1,24 @@
 .Button {
+  
   &-JR {
-    width: 15rem;
     background: #4d2f79;
     color: $headerWhite;
+  }
+  &-SSC {
+    background: cornflowerblue;
+    color: $headerWhite;
+  }
+  &-STC {
+  }
+  &-Bookmarker {
+    background: #76ca6b;
+    color: black;
+  }
+  &-Counter {
+    background: #348290;
+    color: $headerWhite;
+  }
+  &-Filterable {
+    background: #6766af;
   }
 }
