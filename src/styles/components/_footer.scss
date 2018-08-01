@@ -6,8 +6,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 10rem) 7.4rem;
+  grid-template-rows: repeat(5, 11.45rem);
   &-Signature {
-    grid-row: 6;
+    grid-row: 5;
   }
 }
