@@ -15,13 +15,6 @@ class CalorieCounter extends Component {
   render() {
     return (
       <div>
-        <a href="https://github.com/elamahpla/CalorieCounter" target="_blank">
-          <img
-            src="https://i.imgur.com/VVPrjGA.png" 
-            alt="Joey Robinson Calorie Counter"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-Counter"
           onClick={this.handleToggleVisibility}
@@ -32,6 +25,11 @@ class CalorieCounter extends Component {
           <div className="Portfolio-Toggle">
             <p>
               Just a simple Calorie Counter. Uses localStorage as well.
+            </p>
+            <p>
+            <a href="https://github.com/elamahpla/CalorieCounter" target="_blank">
+              GitHub Repo
+            </a>
             </p>
           </div>
         )}
