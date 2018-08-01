@@ -15,13 +15,6 @@ class BookMarker extends Component {
   render() {
     return (
       <div>
-        <a href="https://github.com/elamahpla/bookmark" target="_blank">
-          <img
-            src="https://i.imgur.com/68rGeRA.png" 
-            alt="Joey Robinson Bookmarker"
-          />
-        </a>
-        <br/>
         <Button
           className="Button-Bookmarker"
           onClick={this.handleToggleVisibility}
@@ -32,6 +25,11 @@ class BookMarker extends Component {
           <div className="Portfolio-Toggle">
             <p>
               This is a simple Bookmarking app with Vanilla JS. Uses localStorage to save your bookmarks.
+            </p>
+            <p>
+              <a href="https://github.com/elamahpla/bookmark" target="_blank">
+                GitHub Repo
+              </a>
             </p>
           </div>
         )}

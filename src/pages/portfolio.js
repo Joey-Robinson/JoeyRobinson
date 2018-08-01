@@ -23,6 +23,9 @@ const Portfolio = () => (
     <div className="Portfolio-JSHeader">
       <h1>JavaScript</h1>
     </div>
+    <div className="Portfolio-ReactHeader">
+      <h1>React</h1>
+    </div>
     <div className="Portfolio-Website">
       <JR />
       <br/>
