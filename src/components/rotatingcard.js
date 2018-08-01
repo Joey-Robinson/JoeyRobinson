@@ -4,6 +4,7 @@ const RotatingCard = () => (
   <div className="RotatingCard">
     <div className="RotatingCard-Side">
       <div className="RotatingCard-Side-Front">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, recusandae!
       </div>
       <div className="RotatingCard-Picture RotatingCard-Picture-1">
         &nbsp;
