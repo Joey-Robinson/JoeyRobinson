@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   background: #222;
+  box-shadow: 5px 0 black;
   &-Home {
     grid-row: 1;
     @include headerRoll;
