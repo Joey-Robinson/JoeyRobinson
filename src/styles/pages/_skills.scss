@@ -5,19 +5,22 @@
   color: $headerWhite;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: max-content 5rem min-content;
+  grid-template-rows: max-content 5rem repeat(2, 10rem) min-content;
   justify-items: center;
   text-align: center;
   box-shadow: -3.5px 0 0 0 black;
   &-WorkingOn {
     text-align: center;
+    align-self: center;
     grid-column: 3;
+    grid-row: 4;
     &-CSS,
     &-JavaScript,
     &-React, 
     &-Other,
     &-Soft {
       padding: 1rem 1rem 1rem 0;
+      grid-row: 5;
     }
     &-CSS {
       grid-column: 1;

@@ -19,7 +19,13 @@ $blogBrown: #271614;
 
 $footerCoral: #df6219;
 $footerCoralDark: darken($footerCoral, 15%);
-$headerWhite: #e2e1e1;
 
+$rotatingCardPinkFront: pink;
+$rotatingCardPinkDark: darken($rotatingCardPinkFront, 20%);
+$rotatingCardPinkBack: #f03b59;
+$rotatingCardPinkBackDark: darken($rotatingCardPinkBack, 20%);
+
+$headerWhite: #e2e1e1;
 $black: #1b1818;
+
 $darkBorder: .2rem solid $black;
