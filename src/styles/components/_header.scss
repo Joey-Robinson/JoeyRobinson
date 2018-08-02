@@ -29,6 +29,9 @@
     }
     &-Active {
       background: $homeGreenDark;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
@@ -42,6 +45,9 @@
     }
     &-Active {
       background: $skillsDarkBlue;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
@@ -55,6 +61,9 @@
     }
     &-Active {
       background: $aboutPurpleDark;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
@@ -68,6 +77,9 @@
     }
     &-Active {
       background: $darkRed;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
@@ -81,6 +93,9 @@
     }
     &-Active {
       background: $blogBrown;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
@@ -94,6 +109,9 @@
     }
     &-Active {
       background: $darkGrey;
+      @include respond(tabLand) {
+        grid-row: 7;
+      }
       @include respond(tabPort) {
         grid-row: 7;
       }
