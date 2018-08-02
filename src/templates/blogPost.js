@@ -12,6 +12,12 @@ export default function Template({data}){
         className="Blog-Main" 
         dangerouslySetInnerHTML={{__html: post.html}} />
         <h4 className="Blog-Content-Maker">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
           Posted by: {post.frontmatter.author} on {post.frontmatter.date}
         </h4>
     </div>
