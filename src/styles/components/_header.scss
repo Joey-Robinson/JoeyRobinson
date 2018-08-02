@@ -11,6 +11,11 @@
   margin: 0;
   background: #222;
   box-shadow: 3.5px 0 black;
+  @include respond(tabLand) {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    grid-template-rows: repeat(6, max-content);
+  }
   @include respond(tabPort) {
     grid-row: 1; 
     grid-column: 1 / -1;
