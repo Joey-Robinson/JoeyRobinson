@@ -4,7 +4,7 @@
   background: $rotatingCardPinkBack;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 20rem);
   &-One {
     background: #B0171F;
   }
@@ -36,64 +36,64 @@
     background: #EE6AA7;
   }
   &-Eleven {
-    
+    background: cornflowerblue;
   }
   &-Twelve {
-    
+    background: lightsteelblue;
   }
   &-Thirteen {
-    
+    background: #cae1ff;
   }
   &-Fourteen {
-    
+    background: #bcd2ee;
   }
   &-Fifteen {
-    
+    background: #a2b5cd;
   }
   &-Sixteen {
-    
+    background: #6e7b8b;
   }
   &-Seventeen {
-    
+    background: dodgerblue;
   }
   &-Eighteen {
-    
+    background: #1c86ee;
   }
   &-Nineteen {
-    
+    background: #1874cd;
   }
   &-Twenty {
-    
+    background: #104e8b;
   }
   &-TwentyOne {
-    
+    background: mediumspringgreen;
   }
   &-TwentyTwo {
-    
+    background: springgreen;
   }
   &-TwentyThree {
-    
+    background: #3cb371;
   }
   &-TwentyFour {
-    
+    background: #3d9140;
   }
   &-TwentyFive {
-    
+    background: #008b45;
   }
   &-TwentySix {
-    
+    background: seagreen;
   }
   &-TwentySeven {
-    
+    background: #00c957;
   }
   &-TwentyEight {
-    
+    background: #3d9140;
   }
   &-TwentyNine {
-    
+    background: palegreen;
   }
   &-Thirty {
-    
+    background: #00ff00;
   }
   &-ThirtyOne {
     
