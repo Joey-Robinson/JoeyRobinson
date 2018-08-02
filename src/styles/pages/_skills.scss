@@ -1,3 +1,4 @@
+// So I thought about 
 .Skills {
   background: $skillsDarkBlue;
   grid-column: 2;
@@ -10,21 +11,60 @@
   text-align: center;
   box-shadow: -3.5px 0 0 0 black;
   @include respond(tabPort) {
+    padding-top: 1rem;
     grid-row: 2;
     grid-column: 1 / -1;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
   }
   &-WorkingOn {
     text-align: center;
     align-self: center;
     grid-column: 3;
     grid-row: 4;
-    &-CSS,
-    &-JavaScript,
-    &-React, 
-    &-Other,
+    @include respond(tabPort) {
+      grid-row: 6;
+      grid-column: 1;
+    }
+    &-CSS {
+      padding: 1rem 1rem 1rem 0;
+      grid-row: 5;
+      @include respond(tabPort) {
+        grid-row: 7;
+        grid-column: 1;
+      }
+    }
+    &-JavaScript {
+      padding: 1rem 1rem 1rem 0;
+      grid-row: 5;
+      @include respond(tabPort) {
+        grid-row: 8;
+        grid-column: 1;
+      }
+    }
+    &-React {
+      padding: 1rem 1rem 1rem 0;
+      grid-row: 5;
+      @include respond(tabPort) {
+        grid-row: 9;
+        grid-column: 1;
+      }
+    }
+    &-Other {
+      padding: 1rem 1rem 1rem 0;
+      grid-row: 5;
+      @include respond(tabPort) {
+        grid-row: 10;
+        grid-column: 1;
+      }
+    }
     &-Soft {
       padding: 1rem 1rem 1rem 0;
       grid-row: 5;
+      @include respond(tabPort) {
+        grid-row: 11;
+        grid-column: 1;
+      }
     }
     &-CSS {
       grid-column: 1;

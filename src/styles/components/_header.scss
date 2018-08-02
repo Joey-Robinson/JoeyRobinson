@@ -14,6 +14,7 @@
   @include respond(tabPort) {
     grid-row: 1; 
     grid-column: 1 / -1;
+    grid-template-rows: repeat(6, max-content);
   }
   &-Home {
     grid-row: 1;
@@ -23,6 +24,9 @@
     }
     &-Active {
       background: $homeGreenDark;
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
   &-Skills {
@@ -33,6 +37,9 @@
     }
     &-Active {
       background: $skillsDarkBlue;
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
   &-About {
@@ -43,9 +50,9 @@
     }
     &-Active {
       background: $aboutPurpleDark;
-      // @include respond(tabPort) {
-      //   grid-row: 8;
-      // }
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
   &-Portfolio {
@@ -56,6 +63,9 @@
     }
     &-Active {
       background: $darkRed;
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
   &-Blog {
@@ -66,6 +76,9 @@
     }
     &-Active {
       background: $blogBrown;
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
   &-Contact {
@@ -76,6 +89,9 @@
     }
     &-Active {
       background: $darkGrey;
+      @include respond(tabPort) {
+        grid-row: 7;
+      }
     }
   }
 }
