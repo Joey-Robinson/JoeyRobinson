@@ -18,6 +18,7 @@ import DnD from '../components/dndjs';
 import RedditSearch from '../components/redditsearch';
 import RatingSystem from '../components/ratingsystem';
 import FullCrud from '../components/fullcrud';
+import Chucky from '../components/chucknorris';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -57,6 +58,8 @@ const Portfolio = () => (
       <RatingSystem />
       <br/>
       <FullCrud />
+      <br/>
+      <Chucky />
     </div>
     <div className="Portfolio-Reusable">
       <ReusableButton />
