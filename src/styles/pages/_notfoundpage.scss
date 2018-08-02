@@ -4,7 +4,7 @@
   background: $rotatingCardPinkBack;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(5, 20rem);
+  grid-template-rows: repeat(5, 1fr);
   &-One {
     background: #B0171F;
   }
@@ -126,33 +126,33 @@
     background: #a0522d;
   }
   &-FourtyOne {
-    
+    background: #8e388e;
   }
   &-FourtyTwo {
-    
+    background: #7171c6;
   }
   &-FourtyThree {
-    
+    background: #7D9EC0;
   }
   &-FourtyFour {
-    
+    background: #388e8e;
   }
   &-FourtyFive {
-    
+    background: #71c671;
   }
   &-FourtySix {
-    
+    background: #8e8e38;
   }
   &-FourtySeven {
-    
+    background: #c5c1aa;
   }
   &-FourtyEight {
-    
+    background: #c67171;
   }
   &-FourtyNine {
-    
+    background: #555555;
   }
   &-Fifty {
-    
+    background: #000;
   }
 }
