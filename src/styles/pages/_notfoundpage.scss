@@ -13,152 +13,252 @@
   }
   &-One {
     background: #B0171F;
+    grid-row: 1;
+    grid-column: 1;
   }
   &-Two {
     background: #DC143C;
+    grid-row: 1;
+    grid-column: 2;
   }
   &-Three {
     background: #ee1289;
+    grid-row: 1;
+    grid-column: 3;
   }
   &-Four {
     background: #ff3e96;
+    grid-row: 1;
+    grid-column: 4;
   }
   &-Five {
     background: pink;
+    grid-row: 1;
+    grid-column: 5;
   }
   &-Six {
     background: #ffb6c1;
+    grid-row: 1;
+    grid-column: 6;
   }
   &-Seven {
     background: palevioletred;
+    grid-row: 1;
+    grid-column: 7;
   }
   &-Eight {
     background: orchid;
+    grid-row: 1;
+    grid-column: 8;
   }
   &-Nine {
     background:#CD6889;
+    grid-row: 1;
+    grid-column: 9;
   }
   &-Ten {
     background: #EE6AA7;
+    grid-row: 1;
+    grid-column: 10;
   }
   &-Eleven {
     background: cornflowerblue;
+    grid-row: 2;
+    grid-column: 1;
   }
   &-Twelve {
     background: lightsteelblue;
+    grid-row: 2;
+    grid-column: 2;
   }
   &-Thirteen {
     background: #cae1ff;
+    grid-row: 2;
+    grid-column: 3;
   }
   &-Fourteen {
     background: #bcd2ee;
+    grid-row: 2;
+    grid-column: 4;
   }
   &-Fifteen {
     background: #a2b5cd;
+    grid-row: 2;
+    grid-column: 5;
   }
   &-Sixteen {
     background: #6e7b8b;
+    grid-row: 2;
+    grid-column: 6;
   }
   &-Seventeen {
     background: dodgerblue;
+    grid-row: 2;
+    grid-column: 7;
   }
   &-Eighteen {
     background: #1c86ee;
+    grid-row: 2;
+    grid-column: 8;
   }
   &-Nineteen {
     background: #1874cd;
+    grid-row: 2;
+    grid-column: 9;
   }
   &-Twenty {
     background: #104e8b;
+    grid-row: 2;
+    grid-column: 10;
   }
   &-TwentyOne {
     background: mediumspringgreen;
+    grid-row: 3;
+    grid-column: 1;
   }
   &-TwentyTwo {
     background: springgreen;
+    grid-row: 3;
+    grid-column: 2;
   }
   &-TwentyThree {
     background: #3cb371;
+    grid-row: 3;
+    grid-column: 3;
   }
   &-TwentyFour {
     background: #3d9140;
+    grid-row: 3;
+    grid-column: 4;
   }
   &-TwentyFive {
     background: #008b45;
+    grid-row: 3;
+    grid-column: 5;
   }
   &-TwentySix {
     background: seagreen;
+    grid-row: 3;
+    grid-column: 6;
   }
   &-TwentySeven {
     background: #00c957;
+    grid-row: 3;
+    grid-column: 7;
   }
   &-TwentyEight {
     background: #3d9140;
+    grid-row: 3;
+    grid-column: 8;
   }
   &-TwentyNine {
     background: palegreen;
+    grid-row: 3;
+    grid-column: 9;
   }
   &-Thirty {
     background: #00ff00;
+    grid-row: 3;
+    grid-column: 10;
   }
   &-ThirtyOne {
     background: chocolate;
+    grid-row: 4;
+    grid-column: 1;
   }
   &-ThirtyTwo {
     background: #c76114;
+    grid-row: 4;
+    grid-column: 2;
   }
   &-ThirtyThree {
     background: #ff7f24;
+    grid-row: 4;
+    grid-column: 3;
   }
   &-ThirtyFour {
     background: #ee7621;
+    grid-row: 4;
+    grid-column: 4;
   }
   &-ThirtyFive {
     background: #cd661d;
+    grid-row: 4;
+    grid-column: 5;
   }
   &-ThirtySix {
     background: saddlebrown;
+    grid-row: 4;
+    grid-column: 6;
   }
   &-ThirtySeven {
     background: #ff7d40;
+    grid-row: 4;
+    grid-column: 7;
   }
   &-ThirtyEight {
     background: #ff6103;
+    grid-row: 4;
+    grid-column: 8;
   }
   &-ThirtyNine {
     background: #8a360f;
+    grid-row: 4;
+    grid-column: 9;
   }
   &-Fourty {
     background: #a0522d;
+    grid-row: 4;
+    grid-column: 10;
   }
   &-FourtyOne {
     background: #8e388e;
+    grid-row: 5;
+    grid-column: 1;
   }
   &-FourtyTwo {
     background: #7171c6;
+    grid-row: 5;
+    grid-column: 2;
   }
   &-FourtyThree {
     background: #7D9EC0;
+    grid-row: 5;
+    grid-column: 3;
   }
   &-FourtyFour {
     background: #388e8e;
+    grid-row: 5;
+    grid-column: 4;
   }
   &-FourtyFive {
     background: #71c671;
+    grid-row: 5;
+    grid-column: 5;
   }
   &-FourtySix {
     background: #8e8e38;
+    grid-row: 5;
+    grid-column: 6;
   }
   &-FourtySeven {
     background: #c5c1aa;
+    grid-row: 5;
+    grid-column: 7;
   }
   &-FourtyEight {
     background: #c67171;
+    grid-row: 5;
+    grid-column: 8;
   }
   &-FourtyNine {
     background: #555555;
+    grid-row: 5;
+    grid-column: 9;
   }
   &-Fifty {
-    background: #000;
+    background: #122127;
+    grid-row: 5;
+    grid-column: 10;
   }
 }
