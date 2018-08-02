@@ -12,8 +12,9 @@ const Home = () => (
       </p>
     </div>
     <div className="Home-Middle">
+      <br/>
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, obcaecati reiciendis aperiam modi eveniet iste magni consequuntur aut! Molestiae eum expedita, quia quas corporis dolore illo magnam a libero recusandae obcaecati atque sequi mollitia omnis similique molestias nostrum quam illum officiis, explicabo quibusdam ullam rem maiores! Nemo ab excepturi harum.
       </p>
     </div>
   </div>
