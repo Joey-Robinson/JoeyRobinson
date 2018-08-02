@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
     </Link>
     <Link activeClassName="Header-Blog-Active" className="Header-Blog" to="/blog">
       <span className="Header-Blog-Visible">Blog</span>
-      <span className="Header-Blog-Invisible">My Thougts</span>
+      <span className="Header-Blog-Invisible">My Thoughts</span>
     </Link>
     <Link activeClassName="Header-Contact-Active" className="Header-Contact" to="/contact">
       <span className="Header-Contact-Visible">Contact</span>
