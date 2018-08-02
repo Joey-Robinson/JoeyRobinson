@@ -8,6 +8,11 @@
   text-align: center;
   align-items: center;
   box-shadow: -3.5px 0 0 0 black;
+  @include respond(tabPort) {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    grid-template-rows: repeat(4, 25vh);
+  }
   & a {
     text-decoration: underline;
   }
