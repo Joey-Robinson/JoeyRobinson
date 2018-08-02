@@ -5,6 +5,12 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  &-Back {
+    background: rgba(0, 0, 0, .45);
+    grid-column: 5 / 7;
+    grid-row: 3;
+    z-index: 3;
+  }
   &-One {
     background: #B0171F;
   }

@@ -1,7 +1,11 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 const NotFoundPage = () => (
   <div className="FourOhFour">
+    <div className="FourOhFour-Back">
+      <Link to="/">You Broke Me, Go Back</Link>
+    </div>
     <div className="FourOhFour-One">&nbsp;</div>
     <div className="FourOhFour-Two">&nbsp;</div>
     <div className="FourOhFour-Three">&nbsp;</div>
