@@ -1,3 +1,5 @@
+// This is weird to me because I need to use both the blog.js page and the blogPost.js page in tandem.
+// So one style will directly influence another and I have to be cautious of that.
 .Blog {
   background: $blogBrown;
   color: $headerWhite;
@@ -9,14 +11,11 @@
   @include respond(tabPort) {
     grid-row: 2;
     grid-column: 1 / -1;
+    grid-template-rows: 100vh;
   }
   &-Display {
     grid-column: 2;
     text-align: center;
-    @include respond(tabPort) {
-      grid-row: 2;
-      grid-column: 1 / -1;
-    }
   }
   &-Content {
     background: $blogBrown;
@@ -27,6 +26,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5rem 5rem max-content;
+    @include respond(tabPort) {
+      grid-row: 2;
+      grid-column: 1 / -1;
+    }
     & h1 {
       text-align: center;
       grid-row: 2;
