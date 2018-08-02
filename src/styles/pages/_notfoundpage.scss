@@ -1,0 +1,28 @@
+.FourOhFour {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  background: $rotatingCardPinkBack;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  &-One {
+    grid-row: 1;
+    background: #000;
+  }
+  &-Two {
+    grid-row: 2;
+    background: whitesmoke;
+  }
+  &-Three {
+    grid-row: 3;
+    background: yellow;
+  }
+  &-Four {
+    grid-row: 4;
+    background: orangered;
+  }
+  &-Five {
+    grid-row: 5;
+    background: darkolivegreen;
+  }
+}
