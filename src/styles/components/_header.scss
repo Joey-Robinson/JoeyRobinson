@@ -25,10 +25,10 @@
     grid-row: 1;
     @include headerRoll;
     &:hover {
-      background: $homeGreenDark;
+      background: $primaryColor;
     }
     &-Active {
-      background: $homeGreenDark;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }
@@ -41,10 +41,10 @@
     grid-row: 2;
     @include headerRoll;
     &:hover {
-      background: $skillsDarkBlue;
+      background: $primaryColor;
     }
     &-Active {
-      background: $skillsDarkBlue;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }
@@ -57,10 +57,10 @@
     grid-row: 3;
     @include headerRoll;
     &:hover {
-      background: $aboutPurpleDark;
+      background: $primaryColor;
     }
     &-Active {
-      background: $aboutPurpleDark;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }
@@ -73,10 +73,10 @@
     grid-row: 4;
     @include headerRoll;
     &:hover {
-      background: $darkRed;
+      background: $primaryColor;
     }
     &-Active {
-      background: $darkRed;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }
@@ -89,10 +89,10 @@
     grid-row: 5;
     @include headerRoll;
     &:hover {
-      background: $blogBrown;
+      background: $primaryColor;
     }
     &-Active {
-      background: $blogBrown;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }
@@ -105,10 +105,10 @@
     grid-row: 6;
     @include headerRoll;
     &:hover {
-      background: $darkGrey;
+      background: $primaryColor;
     }
     &-Active {
-      background: $darkGrey;
+      background: $primaryColor;
       @include respond(tabLand) {
         grid-row: 7;
       }

@@ -1,7 +1,7 @@
 // This is weird to me because I need to use both the blog.js page and the blogPost.js page in tandem.
 // So one style will directly influence another and I have to be cautious of that.
 .Blog {
-  background: $blogBrown;
+  background: $primaryColor;
   color: $headerWhite;
   grid-column: 2;
   grid-row: 1 / -1;
@@ -24,7 +24,7 @@
     text-align: center;
   }
   &-Content {
-    background: $blogBrown;
+    background: $primaryColor;
     color: $headerWhite;
     word-break: break-all;
     grid-column: 2;

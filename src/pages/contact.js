@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => (
   <div className="Contact">
     <div className="Contact-GitHub">
-        <a target="_blank" href="https://github.com/elamahpla">GitHub<br/></a>
+        <a target="_blank" href="https://github.com/Joey-Robinson">GitHub<br/></a>
     </div>
     <div className="Contact-Twitter">
         <a target="_blank" href="https://twitter.com/joeyrobinsondev">Twitter<br/></a>

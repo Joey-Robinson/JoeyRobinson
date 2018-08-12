@@ -1,7 +1,7 @@
 .Home {
   grid-column: 2;
   grid-row: 1 / -1;
-  background: $homeGreenDark;
+  background: $primaryColor;
   color: $headerWhite;
   display: grid;
   grid-template-columns: 5rem 1fr 5rem;

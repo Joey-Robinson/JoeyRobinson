@@ -56,52 +56,6 @@ const Skills = () => (
         <li>Time Management</li>
       </ul>
     </div>
-    <h1 className="Skills-WorkingOn">Working On:</h1>
-    <div className="Skills-WorkingOn-CSS">
-      <ul>
-        <li>BEM & Atomic Architecture</li>
-        <li>Better Design Principles</li>
-        <li>Better Flow Of&nbsp; CSS</li>
-        <li>Better Use of CSS Grid</li>
-        <li>Usage of Mixins & Functions</li>
-      </ul>
-    </div>
-    <div className="Skills-WorkingOn-JavaScript">
-      <ul>
-        <li>Learning JS Better In General</li>
-        <li>Fully Understand How & Why</li>
-        <li>Deconstructing</li>
-        <li>Handling Input Changes</li>
-        <li>Understanding API Calls Better</li>
-      </ul>
-    </div>
-    <div className="Skills-WorkingOn-React">
-      <ul>
-        <li>Understanding React Better In General</li>
-        <li>Jest & Testing In General</li>
-        <li>Using State More Effectively</li>
-        <li>Sever Side Rendering (SSR)</li>
-        <li>Reach Router</li>
-      </ul>
-    </div>
-    <div className="Skills-WorkingOn-Other">
-      <ul>
-        <li>Using Webpack Better</li>
-        <li>Having Better NPM Script Usage</li>
-        <li>Using NPM Scripts To Compile SCSS</li>
-        <li>Learning And Knowing Gulp And Grunt</li>
-        <li></li>
-      </ul>
-    </div>
-    <div className="Skills-WorkingOn-Soft">
-      <ul>
-        <li>Learning When To Stop Obsessing Over An Issue</li>
-        <li>Effectively Explaining Myself</li>
-        <li>Knowing When To Ask For Help</li>
-        <li>Better Problem Solving</li>
-        <li>Living A Healthier Life</li>
-      </ul>
-    </div>
   </div>
 );
 
