@@ -19,11 +19,11 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
-                name: `description`,
+                name: `Portfolio For Joey Robinson`,
                 content: metaDescription,
               },
               {
-                property: `og:title`,
+                property: `Joey Robinson`,
                 content: title,
               },
               {

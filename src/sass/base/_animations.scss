@@ -1,0 +1,91 @@
+@keyframes travelTheWorld {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: 25%;
+    transform: scale(0.25);
+  }
+
+  50% {
+    left: 50%;
+    transform: scale(0.50);
+  }
+
+  75% {
+    left: 75%;
+    transform: scale(0.75);
+  }
+
+  100% {
+    left: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes blink-large {
+  0% {
+    box-shadow: $bxshadow-large;
+  }
+
+  70% {
+    $colors: '#fff', 'transparent';
+    $stars: $bxshadow-large;
+
+    @for $i from 1 to length($stars) {
+      $star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+      $stars: set-nth($stars, $i, $star);
+    }
+
+    box-shadow: $stars;
+  }
+
+  100% {
+    box-shadow: $bxshadow-large;
+  }
+}
+
+@keyframes blink-medium {
+  0% {
+    box-shadow: $bxshadow-medium;
+  }
+
+  70% {
+    $colors: '#fff', 'transparent';
+    $stars: $bxshadow-medium;
+
+    @for $i from 1 to length($stars) {
+      $star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+      $stars: set-nth($stars, $i, $star);
+    }
+
+    box-shadow: $stars;
+  }
+
+  100% {
+    box-shadow: $bxshadow-medium;
+  }
+}
+
+@keyframes blink-small {
+  0% {
+    box-shadow: $bxshadow-small;
+  }
+
+  70% {
+    $colors: '#fff', 'transparent';
+    $stars: $bxshadow-small;
+
+    @for $i from 1 to length($stars) {
+      $star: set-nth(nth($stars, $i), 3, unquote(nth($colors, random(length($colors)))));
+      $stars: set-nth($stars, $i, $star);
+    }
+
+    box-shadow: $stars;
+  }
+
+  100% {
+    box-shadow: $bxshadow-small;
+  }
+}

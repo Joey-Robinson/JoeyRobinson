@@ -1,0 +1,6 @@
+.header {
+  background: #222;
+  display: grid;
+  grid-template-columns: 5vw 1fr repeat(4, auto);
+  width: 100%;
+}

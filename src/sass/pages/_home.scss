@@ -1,0 +1,32 @@
+.home {
+  height: auto;
+  display: grid;
+  grid-template-columns: 25vw 75vw;
+  grid-template-rows: auto 85vh auto;
+  overflow: hidden;
+
+  &-sky {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #4B79A1;
+    background: linear-gradient(to top, #283E51, #0A2342);
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+
+    &__stars {
+      width: 100%;
+      height: 100%;
+      background: url(../images/stars.png);
+      z-index: 0;
+    }
+  }
+
+  &-circle__one {
+    fill: #f5f3ce;
+  }
+}
+
+.circle {
+  fill: $moonGrey;
+}
