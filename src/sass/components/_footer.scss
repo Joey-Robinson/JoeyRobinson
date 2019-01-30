@@ -1,4 +1,8 @@
 .footer {
   background: #222;
-  z-index: 3;
+  width: 100vw;
+  display: grid;
+  z-index: 999;
+  grid-column: 1 / -1;
+  grid-row: 2;
 }

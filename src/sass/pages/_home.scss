@@ -2,8 +2,27 @@
   height: auto;
   display: grid;
   grid-template-columns: 25vw 75vw;
-  grid-template-rows: auto 85vh auto;
+  grid-template-rows: auto 100vh auto;
   overflow: hidden;
+
+  &-svg {
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 5rem 0 0 10rem;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    justify-self: center;
+
+    &__actual {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
 
   &-sky {
     position: relative;

@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  grid-template-columns: 5vw 1fr;
+  grid-row: 100vh auto;
+  overflow: hidden;
+}

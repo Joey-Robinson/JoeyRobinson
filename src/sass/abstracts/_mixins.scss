@@ -1,0 +1,6 @@
+@mixin headerAnimation {
+  transform: translateX(-500rem);
+  animation: headerSlide 2s forwards;
+  justify-self: right;
+  padding: 0 1rem 0 0;
+}

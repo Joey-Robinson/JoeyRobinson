@@ -16,15 +16,15 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="container">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           {children}
-          <footer className="footer">
+          <footer className="container-footer footer">
             © {new Date().getFullYear()}, From footer
           </footer>
         </div>
-      </>
+      </div>
     )}
   />
 )

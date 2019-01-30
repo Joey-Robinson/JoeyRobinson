@@ -4,17 +4,17 @@ import React from 'react'
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <nav>
-      <Link className="header-title" to="/">
+    <nav className="header-nav">
+      <Link className="header-nav__title" to="/">
         {siteTitle}
       </Link>
-      <Link className="header-about" to="/about/">
+      <Link className="header-nav__about" to="/about/">
         About
       </Link>
-      <Link className="header-work" to="/work/">
+      <Link className="header-nav__work" to="/work/">
         Work
       </Link>
-      <Link className="header-contact" to="/contact/">
+      <Link className="header-nav__contact" to="/contact/">
         Conact
       </Link>
     </nav>
