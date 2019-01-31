@@ -1,80 +1,93 @@
 .header {
   grid-column: 1;
   grid-row: 1;
-  background: #000;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   a {
     text-decoration: none;
     color: $headerWhite;
     font-size: $baseLink;
-
-    &:after {
-      background: $headerWhite;
-      content: '';
-      left: 0px;
-      right: 0px;
-      height: 0px;
-      bottom: 0;
-      position: absolute;
-      transition: height .2s ease-in-out;
-    }
-
-    &:hover,
-    &:focus {
-      &:after {
-        height: 10%;
-        margin: 0 1rem 0 0;
-        bottom: 0;
-      }
-    }
-
-    &.is-active,
-    &[aria-current="page"] {
-      background: $headerWhite;
-      color: $primaryGrey;
-      height: 60%;
-
-      &:hover,
-      &:focus {
-        &:after {
-          background: $primaryGrey;
-        }
-      }
-    }
+    height: 1rem;
   }
 
   &-nav {
-    height: 100%;
+    margin: 1rem 0 0 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 1rem;
-    grid-template-rows: 10rem repeat(4, 5rem);
-    padding: 0;
-    margin: 0;
+    grid-template-rows: repeat(4, 2.25rem);
+    grid-row-gap: 5px;
 
     &__title {
-      padding: 5px 5px 5px 1rem;
+      margin: 0 0 0 3px;
       grid-row: 1;
-      transform: translateX(100rem);
-      animation: headerSlide 2s forwards;
-      justify-self: right;
+      @include headerAnimation;
     }
 
     &__about {
-      grid-row: 3;
+      grid-row: 2;
       @include headerAnimation;
+      animation-delay: .5s
     }
 
     &__work {
-      grid-row: 4;
+      grid-row: 3;
       @include headerAnimation;
-      animation-delay: .5s;
+      animation-delay: 1s;
     }
 
     &__contact {
-      grid-row: 5;
+      grid-row: 4;
       @include headerAnimation;
-      animation-delay: 1s;
+      animation-delay: 1.5s;
+    }
+  }
+}
+
+.title {
+  &:hover {
+
+    &:after {
+      width: 20vw;
+      content: "oey robinson";
+      transition: all .5s ease-in-out;
+      animation: slide .35s linear;
+      position: absolute;
+      display: inline-block;
+      background: transparent;
+      z-index: 5000;
+    }
+  }
+}
+
+.about {
+
+  &:hover {
+    &:after {
+      content: "bout";
+      @include headerShow;
+    }
+  }
+}
+
+.work {
+
+  &:hover {
+    &:after {
+      content: "ork";
+      @include headerShow;
+    }
+  }
+}
+
+.contact {
+
+  &:hover {
+    &:after {
+      content: "ontact";
+      @include headerShow;
     }
   }
 }

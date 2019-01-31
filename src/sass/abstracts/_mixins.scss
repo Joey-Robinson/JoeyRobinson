@@ -1,6 +1,15 @@
 @mixin headerAnimation {
   transform: translateX(-500rem);
   animation: headerSlide 2s forwards;
-  justify-self: right;
-  padding: 0 1rem 0 0;
+  justify-self: left;
+}
+
+@mixin headerShow {
+  transition: all .5s ease-in-out;
+  animation: slide .35s ease-in-out;
+  position: absolute;
+  display: inline-block;
+  background: transparent;
+  width: auto;
+  z-index: 5000;
 }
