@@ -6,11 +6,15 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home">
+      <div className="home-card">
+        <h3>from card one</h3>
+      </div>
+      {/* 
       <div className="home-sky">
         <div className="home-sky__stars" />
       </div>
-      <div className="home-svg">
-        <svg
+      <div className="home-svg"> */}
+      {/* <svg
           className="home-svg__actual"
           viewBox="0 0 30 30"
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +30,7 @@ const IndexPage = () => (
           <circle cx="5" cy="13" r="1" className="circle" />
           <circle cx="7" cy="7" r="1.2" className="circle" />
         </svg>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )
