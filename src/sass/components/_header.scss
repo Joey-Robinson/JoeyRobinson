@@ -1,92 +1,29 @@
 .header {
+  // max-height: 100vh;
+  height: 100vh;
   grid-column: 1;
   grid-row: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  font-size: $mediumBase;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background: url(../images/mtfuji.jpg) no-repeat center center / cover;
+}
 
-  a {
-    text-decoration: none;
-    color: $headerWhite;
-    font-size: $baseLink;
-    height: 1rem;
+.nav {
+  align-self: center;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+  &-home {
+    text-transform: lowercase;
   }
-
-  &-nav {
-    margin: 1rem 0 0 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 2.25rem);
-    grid-row-gap: 5px;
-
-    &__title {
-      margin: 0 0 0 3px;
-      grid-row: 1;
-      @include headerAnimation;
-    }
-
-    &__about {
-      grid-row: 2;
-      @include headerAnimation;
-      animation-delay: .5s
-    }
-
-    &__work {
-      grid-row: 3;
-      @include headerAnimation;
-      animation-delay: 1s;
-    }
-
-    &__contact {
-      grid-row: 4;
-      @include headerAnimation;
-      animation-delay: 1.5s;
-    }
+  div {
+    justify-self: right;
+    padding: 0 2rem;
   }
 }
 
-.title {
-  &:hover {
-
-    &:after {
-      width: 20vw;
-      content: "oey robinson";
-      transition: all .5s ease-in-out;
-      animation: slide .35s linear;
-      position: absolute;
-      display: inline-block;
-      background: transparent;
-    }
-  }
-}
-
-.about {
-
-  &:hover {
-    &:after {
-      content: "bout";
-      @include headerShow;
-    }
-  }
-}
-
-.work {
-
-  &:hover {
-    &:after {
-      content: "ork";
-      @include headerShow;
-    }
-  }
-}
-
-.contact {
-
-  &:hover {
-    &:after {
-      content: "ontact";
-      @include headerShow;
-    }
-  }
+[aria-current="page"]:after {
+  content: " »";
 }

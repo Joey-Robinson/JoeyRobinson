@@ -1,17 +1,17 @@
-// Fonts - General
+// Fonts
 $base: 1.75rem;
-$medium: 1.9rem;
-$large: 2.3rem;
-// Fonts - Links
-$baseLink: 1.8rem;
+$smallBase: 1.85rem;
+$mediumBase: 1.95rem;
+$largeBase: 2.1rem;
 // Fonts - Headings
+$baseHeading: 2.3rem;
+$smallHeading: 1.9rem;
+$mediumHeading: 2rem;
+$bigHeading: 2.5rem;
+$largeHeading: 3rem;
 
 // Colors
-$moonGrey: #aeb4af;
 $headerWhite: #e2e1e1;
-$primaryGrey: #222;
-
-// Star Shadows
-$bxshadow-large: box-shadow(300);
-$bxshadow-medium: box-shadow(500);
-$bxshadow-small: box-shadow(800);
+$textBlack: #130f0f;
+$primaryColor: #222;
+$secondaryColor: #920e0e;

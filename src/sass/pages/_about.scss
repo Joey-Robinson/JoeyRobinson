@@ -1,0 +1,31 @@
+.about {
+  max-height: 100vh;
+  grid-column: 2;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10vh repeat(3, 1fr);
+  hr {
+    max-width: 45vw;
+    margin: 0 auto;
+  }
+  div {
+    justify-self: center;
+  }
+  p {
+    font-size: $base;
+    padding: 1rem 3rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: $bigHeading;
+  }
+  &-top {
+    grid-row: 2;
+    grid-column: 1 / -1;
+  }
+  &-bottom {
+    grid-row: 3;
+    grid-column: 1 / -1;
+  }
+}

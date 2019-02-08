@@ -1,37 +1,9 @@
 .footer {
-  background: #222;
-  width: 100vw;
-  display: grid;
+  font-size: $base;
   grid-column: 1 / -1;
   grid-row: 2;
+  z-index: 2;
+  background: darken($primaryColor, .75);
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
-  height: 25vh;
-  font-size: $base;
-  color: $headerWhite;
-
-  div {
-    padding: 5rem 0 0 0;
-    justify-self: center;
-  }
-
-  &-middle__mid {
-    align-self: center;
-    grid-column: 3;
-  }
-
-  &-middle__left {
-    grid-column: 2;
-  }
-
-  &-middle__right {
-    grid-column: 4;
-  }
-
-  &-far__right {
-    grid-column: 5;
-  }
-
-  &-far__left {
-    grid-column: 1;
-  }
 }

@@ -1,22 +1,30 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
 
-const Header = () => (
+const Header = ({ siteTitle }) => (
   <header className="header">
-    <nav className="header-nav">
-      <Link className="header-nav__title title" to="/">
-        j
-      </Link>
-      <Link className="header-nav__about about" to="/about/">
-        a
-      </Link>
-      <Link className="header-nav__work work" to="/work/">
-        w
-      </Link>
-      <Link className="header-nav__contact contact" to="/contact/">
-        c
-      </Link>
+    <nav className="header-nav nav">
+      <div className="nav-home">
+        <Link to="/">
+          {siteTitle}
+        </Link> 
+      </div>
+      <div className="nav-work">
+        <Link to="/work/">
+          work
+        </Link>
+      </div>
+      <div className="nav-about">
+        <Link to="/about/">
+          about
+        </Link>
+      </div>
+      <div className="nav-contact">
+        <Link to="/contact/">
+          contact
+        </Link>
+      </div>
     </nav>
   </header>
 )

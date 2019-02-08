@@ -1,0 +1,62 @@
+.work {
+  height: 100vh;
+  grid-column: 2;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10vh auto repeat(3, 1fr);
+  img {
+    width: 17rem;
+    height: 12rem;
+  }
+  div {
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: $base;
+    justify-self: center;
+  }
+  p {
+    font-size: $base;
+    padding: 1rem 3rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: $bigHeading;
+  }
+  &-top {
+    grid-row: 2;
+    grid-column: 1 / -1;
+  }
+  &-hoh {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  &-shellgame {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  &-periodictable {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  &-ssc {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  &-tfsoundboard {
+    grid-row: 4;
+    grid-column: 2;
+  }
+  &-reacttodo {
+    grid-row: 4;
+    grid-column: 3;
+  }
+  &-meowkats {
+    grid-row: 5;
+    grid-column: 1;
+  }
+  &-caloriecounter {
+    grid-row: 5;
+    grid-column: 2;
+  }
+}

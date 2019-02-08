@@ -1,14 +1,87 @@
-@mixin headerAnimation {
-  transform: translateX(-500rem);
-  animation: headerSlide 2s forwards;
-  justify-self: left;
+@mixin respond($breakpoint) {
+  @if $breakpoint==phone {
+    @media only screen and (max-width: 37.5em) {
+      // 600px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==customSmall {
+    @media only screen and (max-width: 50em) {
+      // 800px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==ultraSpecific {
+    @media only screen and (min-width: 53.125em) {
+      // 850px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==tabPort {
+    @media only screen and (max-width: 56.25em) {
+      // 900px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==customMedium {
+    @media only screen and (max-width: 62.5em) {
+      // 1000px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==tabLand {
+    @media only screen and (max-width: 75em) {
+      // 1200px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==bigDesktop {
+    @media only screen and (max-width: 112.5em) {
+      // 1800px
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==huge {
+    @media only screen and (max-width: 200.5em) {
+      // 1800px
+      @content
+    }
+
+    ;
+  }
 }
 
-@mixin headerShow {
-  transition: all .5s ease-in-out;
-  animation: slide .35s ease-in-out;
-  position: absolute;
-  display: inline-block;
-  background: transparent;
-  width: auto;
-}
+
+
+@include respond(phone) {}
+
+@include respond(tabPort) {}
+
+@include respond(customMedium) {}
+
+@include respond(tabLand) {}
+
+@include respond(bigDesktop) {}
+
+@include respond(huge) {}

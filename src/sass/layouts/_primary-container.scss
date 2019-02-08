@@ -1,0 +1,9 @@
+.primary-container {
+  overflow: hidden;
+  background: #222;
+  display: grid;
+  grid-template-columns: 35vw 65vw;
+  grid-template-rows: 1fr 20vh;
+  max-height: 120vh;
+  max-width: 100vw;
+}
