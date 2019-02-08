@@ -16,9 +16,9 @@ const ContactPage = () => (
         <p><a target="_blank" rel="noopener noreferrer" href="mailto:joeyrobinsondev@gmail.com">email</a></p>
       </div>
       <div className="contact-bottom">
-      <form action="/success/" name="contact" method="POST" data-netlify="true">
+      <form action="/success/" name="contact" action="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label>Your Name: <input type="text" name="name" /></label>
   </p>
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
