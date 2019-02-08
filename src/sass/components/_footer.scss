@@ -14,6 +14,9 @@
     justify-self: center;
     grid-row: 1;
   }
+  p {
+    padding: 0 3rem;
+  }
   ul {
     list-style: none;
   }
@@ -22,6 +25,10 @@
     grid-column: 3;
     align-self: end;
   }
+  &-far__left {
+    grid-column: 1;
+    align-self: center;
+  }
   &-left {
     align-self: center;
     grid-column: 2;
@@ -29,5 +36,9 @@
   &-right {
     align-self: center;
     grid-column: 4;
+  }
+  &-far__right {
+    grid-column: 5;
+    align-self: center;
   }
 }
