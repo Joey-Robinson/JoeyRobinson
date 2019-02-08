@@ -16,19 +16,21 @@ const ContactPage = () => (
         <p><a target="_blank" rel="noopener noreferrer" href="mailto:joeyrobinsondev@gmail.com">email</a></p>
       </div>
       <div className="contact-bottom">
-      <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Email: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <div data-netlify-recaptcha="true"></div>
-        <p>
-        <button type="submit">Send</button>
-        </p>
-      </form>
-    </div>
+      <form action="/success/" name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+</div>
   </div>
 </Layout>
 )
