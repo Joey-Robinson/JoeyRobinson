@@ -20,6 +20,7 @@ const ContactPage = () => (
           <input type="text" name="name" placeholder="name" />
           <input type="email" name="email" className="email" placeholder="email" />
           <textarea name="message" placeholder="send me a message"></textarea><br />
+          <div data-netlify-recaptcha="true"></div>
           <button className="form-submit" type="submit">Send</button>
         </form>
       </div>
