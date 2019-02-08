@@ -1,8 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import github from '../images/github.png'
 
 const ContactPage = () => (
   <Layout>
@@ -18,7 +16,7 @@ const ContactPage = () => (
         <p><a target="_blank" rel="noopener noreferrer" href="mailto:joeyrobinsondev@gmail.com">email</a></p>
       </div>
       <div className="contact-bottom">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="post" data-netlify="true">
           <input type="text" name="name" placeholder="name" />
           <input type="email" name="email" className="email" placeholder="email" />
           <textarea name="message" placeholder="send me a message"></textarea><br />
