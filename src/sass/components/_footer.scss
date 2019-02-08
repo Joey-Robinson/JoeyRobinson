@@ -1,9 +1,33 @@
 .footer {
-  font-size: $base;
+  font-size: 1.6rem;
   grid-column: 1 / -1;
   grid-row: 2;
   z-index: 2;
-  background: darken($primaryColor, .75);
+  background: $primaryColor;
   display: grid;
+  grid-template-rows: 1fr;
   grid-template-columns: repeat(5, 1fr);
+  [aria-current="page"]:after {
+    content: "";
+  }
+  div {
+    justify-self: center;
+    grid-row: 1;
+  }
+  ul {
+    list-style: none;
+  }
+  &-primary {
+    padding: 1rem 0;
+    grid-column: 3;
+    align-self: end;
+  }
+  &-left {
+    align-self: center;
+    grid-column: 2;
+  }
+  &-right {
+    align-self: center;
+    grid-column: 4;
+  }
 }

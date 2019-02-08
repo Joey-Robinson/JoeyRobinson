@@ -15,7 +15,7 @@ const WorkPage = () => (
     <SEO title="Work" keywords={[`gatsby`, `portfolio`, `react`]} />
     <div className="work">
       <div className="work-top">
-        <h1>what i've done</h1>
+        <h1>stuff i've made</h1>
       </div>
       <div className="work-hoh">
         <a href="https://joey-robinson.github.io/muhhoard/">
