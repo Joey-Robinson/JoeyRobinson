@@ -9,7 +9,7 @@
   }
 
   @if $breakpoint==customSmall {
-    @media only screen and (max-width: 50em) {
+    @media only screen and (min-width: 25.688em) {
       // 800px
       @content
     }
@@ -78,7 +78,7 @@
 
 @include respond(tabPort) {}
 
-@include respond(customMedium) {}
+@include respond(customSmall) {}
 
 @include respond(tabLand) {}
 

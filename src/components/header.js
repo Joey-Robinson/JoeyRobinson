@@ -2,12 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="header">
     <nav className="header-nav nav">
       <div className="nav-home">
         <Link to="/">
-          {siteTitle}
+          home
         </Link> 
       </div>
       <div className="nav-work">
