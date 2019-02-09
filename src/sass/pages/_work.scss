@@ -33,6 +33,7 @@
     text-align: center;
     font-size: $bigHeading;
     @include respond(phone) {
+      font-size: $baseHeading;
       grid-row: 1;
       grid-column: 1;
     }

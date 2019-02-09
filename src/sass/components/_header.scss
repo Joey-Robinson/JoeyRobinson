@@ -15,9 +15,6 @@
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr;
-  @include respond(phone) {
-    
-  }
   &-home {
     text-transform: lowercase;
     @include respond(phone) {
