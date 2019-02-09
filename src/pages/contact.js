@@ -15,9 +15,6 @@ const ContactPage = () => (
         <p><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/joeyrobinsondev">twitter</a></p>
         <p><a target="_blank" rel="noopener noreferrer" href="mailto:joeyrobinsondev@gmail.com">email</a></p>
       </div>
-      <div className="contact-bottom">
-        
-      </div>
   </div>
 </Layout>
 )

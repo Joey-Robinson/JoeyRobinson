@@ -6,7 +6,8 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 10vh repeat(3, 1fr);
   @include respond(phone) {
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto max-content;
+    grid-template-columns: 1fr;
   }
   hr {
     max-width: 45vw;
@@ -14,6 +15,9 @@
   }
   div {
     justify-self: center;
+    @include respond(phone) {
+      align-self: center;
+    }
   }
   p {
     font-size: $base;
@@ -26,6 +30,10 @@
     text-align: center;
     font-size: $bigHeading;
   }
+  &-heading {
+    grid-row: 1;
+    grid-column: 1 / -1;
+  }
   &-top {
     grid-row: 2;
     grid-column: 1 / -1;
@@ -33,5 +41,14 @@
   &-bottom {
     grid-row: 3;
     grid-column: 1 / -1;
+    @include respond(phone) {
+      display: none;
+    }
+  }
+}
+
+.hidden {
+  @include respond(phone) {
+    display: none;
   }
 }
