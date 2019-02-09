@@ -8,7 +8,7 @@
   @include respond(phone) {
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: auto repeat(4, 1fr);
+    grid-template-rows: auto;
   }
   div {
     justify-self: center;
@@ -17,7 +17,7 @@
     font-size: $base;
     padding: 1rem 3rem;
     @include respond(phone) {
-      padding: 1rem 2rem;
+      padding: 2rem 2rem;
     }
     @include respond(customSmall) {
       font-size: 2rem;

@@ -4,3 +4,10 @@ a {
   text-decoration: none;
   color: $headerWhite;
 }
+
+h1 {
+  @include respond(phone) {
+    padding: 2rem 0;
+    font-size: $baseHeading;
+  }
+}

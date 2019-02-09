@@ -8,6 +8,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   background: url(../images/mtfuji.jpg) no-repeat center center / cover;
+  @include respond(phone) {
+    grid-column: 1;
+    grid-row: 1;
+    height: 40vh;
+  }
 }
 
 .nav {
@@ -15,20 +20,18 @@
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr;
+  @include respond(phone) {
+    justify-self: center;
+  }
   &-home {
     text-transform: lowercase;
-    @include respond(phone) {
-      text-align: left;
-    }
   }
   div {
     justify-self: right;
     padding: 0 2rem;
     @include respond(phone) {
-      font-size: 1.6rem;
       width: 100%;
       padding: 2px 5px;
-      margin: 0;
     }
   }
 }

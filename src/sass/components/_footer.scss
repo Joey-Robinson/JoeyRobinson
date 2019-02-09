@@ -9,6 +9,7 @@
   grid-template-columns: repeat(3, 1fr);
   @include respond(phone) {
     font-size: 1.6rem;
+    grid-row: -1;
   }
   [aria-current="page"]:after {
     content: "";
