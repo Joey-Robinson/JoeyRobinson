@@ -5,6 +5,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 10vh repeat(3, 1fr);
+  @include respond(tabLand) {
+    grid-template-rows: auto max-content;
+    height: 50vh;
+    grid-template-columns: 1fr;
+  }
   @include respond(phone) {
     grid-template-rows: auto max-content;
     grid-template-columns: 1fr;

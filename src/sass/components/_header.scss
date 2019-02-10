@@ -8,6 +8,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   background: url(../images/mtfuji.jpg) no-repeat center center / cover;
+  @include respond(tabLand) {
+    grid-column: 1;
+    grid-row: 1;
+    height: 45vh;
+  }
   @include respond(phone) {
     grid-column: 1;
     grid-row: 1;

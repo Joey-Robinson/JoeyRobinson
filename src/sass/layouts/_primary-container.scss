@@ -6,6 +6,11 @@
   grid-template-rows: 1fr 20vh;
   height: 120vh;
   max-width: 100vw;
+  @include respond(tabLand) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    height: auto;
+  }
   @include respond(phone) {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;

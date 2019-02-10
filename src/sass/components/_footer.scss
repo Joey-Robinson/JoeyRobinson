@@ -7,6 +7,9 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
+  @include respond(tabLand) {
+    grid-row: -1;
+  }
   @include respond(phone) {
     font-size: 1.6rem;
     grid-row: -1;
