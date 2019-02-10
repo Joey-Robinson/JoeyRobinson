@@ -8,6 +8,13 @@
     ;
   }
 
+  @if $breakpoint==phonePort {
+    @media only screen and (min-height: 46.250em) {
+      @content
+    }
+    ;
+  }
+
   @if $breakpoint==customSmall {
     @media only screen and (min-width: 25.688em) {
       // 800px
@@ -73,7 +80,7 @@
 }
 
 
-
+@include respond(phonePort) {}
 @include respond(phone) {}
 
 @include respond(tabPort) {}

@@ -16,6 +16,7 @@
   @include respond(phone) {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    height: 50vh;
   }
   div {
     justify-self: center;
