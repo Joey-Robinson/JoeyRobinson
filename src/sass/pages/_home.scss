@@ -1,13 +1,18 @@
 .home {
   height: 300vh;
-  width: 80vw;
+  width: 100%;
   grid-row: 1;
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  color: $headerWhite;
   background: url(../images/vertical.jpg) no-repeat center center / cover;
+  h1 {
+    text-align: center;
+  }
+  p {
+    padding: 2rem 5rem;
+  }
   &__one {
     grid-column: 1;
     grid-row: 1;
@@ -21,6 +26,7 @@
   &__work {
     grid-column: 2;
     grid-row: 3;
+    width: 100%;
     @include homePage;
   }
 }
