@@ -1,5 +1,26 @@
 .home {
+  height: 300vh;
+  width: 80vw;
   grid-row: 1;
   grid-column: 2;
-  background: yellow;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  color: $headerWhite;
+  background: url(../images/vertical.jpg) no-repeat center center / cover;
+  &__one {
+    grid-column: 1;
+    grid-row: 1;
+    @include homePage;
+  }
+  &__about {
+    grid-column: 2;
+    grid-row: 2;
+    @include homePage;
+  }
+  &__work {
+    grid-column: 2;
+    grid-row: 3;
+    @include homePage;
+  }
 }

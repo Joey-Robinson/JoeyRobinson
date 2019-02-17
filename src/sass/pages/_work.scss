@@ -1,5 +1,6 @@
-.work {
-  grid-row: 3;
+.about {
   grid-column: 2;
-  background: blue;
+  grid-row: 2;
+  background: url(../images/cyberpunkcity.jpg) no-repeat center center / cover;
+  height: 100vh;
 }
