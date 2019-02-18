@@ -5,7 +5,7 @@ import React from "react"
 const Header = () => (
   <header className="header">
     <nav className="header__nav">
-      <ul>
+      <ul role="link">
         <li>
           <Link to="/">
             Home
@@ -17,12 +17,14 @@ const Header = () => (
           </Link>
         </li>
         <li>
-          <Link to="/work/">
+          <Link
+            to="/work/">
             Work
           </Link>
         </li>
         <li>
           <a
+            aria-label={`Link to wordpress blog`}
             target="_blank"
             rel="noopener noreferrer" 
             href="https://jrobinsondev.wordpress.com/">
