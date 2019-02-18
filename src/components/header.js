@@ -21,6 +21,14 @@ const Header = () => (
             Work
           </Link>
         </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer" 
+            href="https://jrobinsondev.wordpress.com/">
+            Blog
+          </a>
+        </li>
       </ul>
     </nav>
     <footer className="footer header__footer">

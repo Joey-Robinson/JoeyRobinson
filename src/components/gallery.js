@@ -6,6 +6,8 @@ import mysidia from '../images/mysidia.png'
 import ssc from '../images/ssc.png'
 import tfsoundboard from '../images/tfsoundboard.png'
 import periodictable from '../images/vJS-PeriodicTable.png'
+import myhoard from '../images/myhoard.png'
+import vanitysite from '../images/vanitysite.png'
 
 const galleryData = [{
     title: 'vJS Calorie Counter',
@@ -45,7 +47,7 @@ const galleryData = [{
   },
   {
     title: 'Gamer Vanity Site',
-    image: `${shellgame}`,
+    image: `${vanitysite}`,
     ghRepo: 'https://github.com/Joey-Robinson/secondTribute',
     liveLink: 'https://meowkats.netlify.com/'
   },
@@ -54,6 +56,12 @@ const galleryData = [{
     image: `${shellgame}`,
     ghRepo: 'https://github.com/Joey-Robinson/shellgame',
     liveLink: 'https://joey-robinson.github.io/shellgame/'
+  },
+  {
+    title: 'Hoard Location Tracker',
+    image: `${myhoard}`,
+    ghRepo: 'https://github.com/Joey-Robinson/muhhoard',
+    liveLink: 'https://joey-robinson.github.io/muhhoard/'
   }
 ]
 class Gallery extends Component {
@@ -63,11 +71,29 @@ class Gallery extends Component {
         {galleryData.map((info) => {
           return <li>
                   <p>
-                    {info.title} <br />
-                    <a href={info.ghRepo}>GitHub Repo</a>
+                    View 
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer" 
+                      href={info.liveLink}
+                    >
+                      {info.title}
+                    </a>
+                    <br />
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer" 
+                      href={info.ghRepo}
+                    >
+                      GitHub Repo
+                    </a>
                   </p>
-                  <a href={info.liveLink}>
-                  <img src={info.image}/>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href={info.image}
+                  >
+                    <img src={info.image}/>
                   </a>
                 </li>
         })}

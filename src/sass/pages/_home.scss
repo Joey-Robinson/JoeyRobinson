@@ -3,6 +3,7 @@
   width: 100%;
   grid-row: 1;
   grid-column: 2;
+  font-size: $baseLarge;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
@@ -11,9 +12,15 @@
     text-align: center;
   }
   p {
-    padding: 2rem 5rem;
+    padding: 3rem 6rem;
+  }
+  &__gif {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 0 5rem 0;
   }
   &__one {
+    height: 100vh;
     grid-column: 1;
     grid-row: 1;
     @include homePage;
@@ -22,11 +29,21 @@
     grid-column: 2;
     grid-row: 2;
     @include homePage;
+    h1 {
+      text-align: center;
+      margin: 3rem 0 0 0;
+    }
+    p {
+      padding: 3rem 6rem;
+    }
   }
   &__work {
     grid-column: 2;
     grid-row: 3;
     width: 100%;
     @include homePage;
+    h1 {
+      text-align: center;
+    }
   }
 }
