@@ -6,7 +6,7 @@
   font-size: $baseLarge;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100vh);
   background: url(../images/vertical.jpg) no-repeat center center / cover;
   h1 {
     text-align: center;
