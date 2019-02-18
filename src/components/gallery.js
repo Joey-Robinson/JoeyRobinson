@@ -71,7 +71,7 @@ class Gallery extends Component {
         {galleryData.map((info) => {
           return <li>
                   <p>
-                    Visit 
+                    Visit&nbsp;
                     <a
                       target="_blank"
                       rel="noopener noreferrer" 
