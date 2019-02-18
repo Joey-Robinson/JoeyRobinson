@@ -5,7 +5,7 @@ import React from "react"
 const Header = () => (
   <header className="header">
     <nav className="header__nav">
-      <ul role="link">
+      <ul>
         <li>
           <Link to="/">
             Home

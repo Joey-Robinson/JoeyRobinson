@@ -69,8 +69,7 @@ class Gallery extends Component {
     return (
       <ul className="gallery">
         {galleryData.map((info) => {
-          return <li role="link">
-                  <p>
+          return <li>
                     Visit&nbsp;
                     <a
                       aria-label={`Link to ${info.liveLink}`}
@@ -89,7 +88,6 @@ class Gallery extends Component {
                     >
                       GitHub Repo
                     </a>
-                  </p>
                   <a
                     aria-label={`Link to ${info.image}`}
                     target="_blank"

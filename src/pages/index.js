@@ -17,10 +17,12 @@ const IndexPage = () => (
            Welcome to my personal website. Thanks for visiting and take a look around. I'm sure this will go through several more itertations until I have something I feel incredibly comfortable with.
           I'm just someone trying to make awesome and amazing things. This is a place to showcase some of those things. Also I'm not a designer and I like anime.
         </p>
-        <p>You can find me all over the internet
           <ul
-            role="links" 
-            style={{textDecoration: `underline`}}>
+            style={{
+              textDecoration: `underline`,
+              marginLeft: `2.5em`
+            }}
+            >
             <li>
               <a
                 aria-label="github link"
@@ -53,7 +55,6 @@ const IndexPage = () => (
             <img src={akirabg} alt="Akira Motorcycle Gif"/>
         <Scroll />
           </div>
-        </p>
       </section>
     </section>
     <section className="home__about">
