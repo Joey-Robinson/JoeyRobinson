@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from "../components/gallery";
 import akirabg from '../images/akirabg.gif'
+import luffy from '../images/luffy.webp'
 
 const IndexPage = () => (
   <Layout>
@@ -53,6 +54,12 @@ const IndexPage = () => (
         I'm a self-taught developer. I like to write code. My primary focus right now is on the front-end aspect of development, but I want to eventually know all things that encompass the development world. Both front and backend.
         Beyond that, I also want to learn as many programming and coding things as I can. I want to build amazing websites, tools, and apps with what I've learned.
       </p>
+      <p>
+        One of my favorite things about development is being able to see things come to life. You're breathing life into something and you can fully control everything about it. Its shape, colors, and purpose. I'm able to do all of those things and instantly see results, and to me that's amazing.
+      </p>
+      <div className="home__about-gif">
+        <img src={luffy} alt="Akira Motorcycle Gif"/>
+      </div>
     </section>
     <section className="home__work">
       <h1>Some of my work</h1>
