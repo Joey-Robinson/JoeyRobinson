@@ -4,21 +4,26 @@ import SEO from "../components/seo"
 import Gallery from "../components/gallery";
 import akirabg from '../images/akirabg.gif'
 import luffy from '../images/luffy.webp'
+import Scroll from "../components/scroll";
+import ScrollTwo from "../components/scrolltwo";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <section className="home">
       <section className="home__one">
-        <h1>Welcome to my personal website.</h1>
+        <h1>Hi, I'm Joey Robinson.</h1>
         <p>
-          Hello! I'm Joey Robinson, you've happened across my personal website. Thanks for visiting and take a look around. I'm sure this will go through several more itertations until I have something I feel incredibly comfortable with.
-          I'm just someone trying to make awesome and amazing things. This is a place to showcase some of those things.
+           Welcome to my personal website. Thanks for visiting and take a look around. I'm sure this will go through several more itertations until I have something I feel incredibly comfortable with.
+          I'm just someone trying to make awesome and amazing things. This is a place to showcase some of those things. Also I'm not a designer and I like anime.
         </p>
         <p>You can find me all over the internet
-          <ul>
+          <ul
+            role="links" 
+            style={{textDecoration: `underline`}}>
             <li>
               <a
+                aria-label="github link"
                 target="_blank"
                 rel="noopener noreferrer" 
                 href="https://github.com/Joey-Robinson">
@@ -27,6 +32,7 @@ const IndexPage = () => (
             </li>
             <li>
               <a
+                aria-label="linkedin link"
                 target="_blank"
                 rel="noopener noreferrer" 
                 href="https://www.linkedin.com/in/joey-robinson/">
@@ -34,7 +40,8 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a 
+              <a
+                aria-label="twitter link"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/joeyrobinsondev">
@@ -44,6 +51,7 @@ const IndexPage = () => (
           </ul>
           <div className="home__gif">
             <img src={akirabg} alt="Akira Motorcycle Gif"/>
+        <Scroll />
           </div>
         </p>
       </section>
@@ -58,8 +66,9 @@ const IndexPage = () => (
         One of my favorite things about development is being able to see things come to life. You're breathing life into something and you can fully control everything about it. Its shape, colors, and purpose. I'm able to do all of those things and instantly see results, and to me that's amazing.
       </p>
       <div className="home__about-gif">
-        <img src={luffy} alt="Akira Motorcycle Gif"/>
+        <img src={luffy} alt="Luffy Punch Gif"/>
       </div>
+      <ScrollTwo />
     </section>
     <section className="home__work">
       <h1>Some of my work</h1>

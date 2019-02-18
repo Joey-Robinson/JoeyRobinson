@@ -69,10 +69,11 @@ class Gallery extends Component {
     return (
       <ul className="gallery">
         {galleryData.map((info) => {
-          return <li>
+          return <li role="link">
                   <p>
                     Visit&nbsp;
                     <a
+                      aria-label={`Link to ${info.liveLink}`}
                       target="_blank"
                       rel="noopener noreferrer" 
                       href={info.liveLink}
@@ -81,6 +82,7 @@ class Gallery extends Component {
                     </a>
                     <br />
                     <a
+                      aria-label={`Link to ${info.ghRepo}`}
                       target="_blank"
                       rel="noopener noreferrer" 
                       href={info.ghRepo}
@@ -89,11 +91,12 @@ class Gallery extends Component {
                     </a>
                   </p>
                   <a
+                    aria-label={`Link to ${info.image}`}
                     target="_blank"
                     rel="noopener noreferrer" 
                     href={info.image}
                   >
-                    <img src={info.image}/>
+                    <img src={info.image} alt={info.image} />
                   </a>
                 </li>
         })}
