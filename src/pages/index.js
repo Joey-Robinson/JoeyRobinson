@@ -42,7 +42,7 @@ const IndexPage = () => (
     </section>
     <section className="home__contact">
       <section className="home__contact-form">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" action="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
