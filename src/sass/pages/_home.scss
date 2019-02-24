@@ -1,4 +1,5 @@
 .home {
+  overflow-x: hidden;
   height: 300vh;
   width: 100%;
   grid-row: 1;
@@ -63,7 +64,34 @@
     }
   }
   &__contact {
+    text-align: center;
+    overflow-x: hidden;
     grid-column: 2;
     grid-row: 3;
+    font-size: 2.2rem;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    button {
+      width: 32rem;
+    }
+    &-form {
+      grid-column: 1 / -1;
+      grid-row: 2 / 5;
+      // justify-self: center;
+    }
   }
+}
+
+.contact__form-name,
+.contact__form-email,
+.contact__form-submit {
+  font-size: 2.5rem;
+}
+
+.contact__form-submit {
+  margin-top: 2.5rem;
+  width: 50rem;
+  height: 30rem;
 }

@@ -41,16 +41,17 @@ const IndexPage = () => (
       </section>
     </section>
     <section className="home__contact">
-      <section className="home__contact-form">
+      <h1>From Contact</h1>
+      <section className="home__contact-form contact__form">
         <form
           name="contact-form"
           method="post"
           data-netlify="true"
         >
-          <input name="name" placeholder="Your Name" type="text" />
-          <input name="email" placeholder="name@name.com" type="email" />
-          <input name="email" placeholder="name@name.com" type="email" />
-          <textarea name="message" placeholder="Make sure you leave your email here" />
+          <input className="contact__form-name" name="name" placeholder="Your Name" type="text" /><br />
+          <input className="contact__form-email" name="email" placeholder="Your Email" type="email" /><br />
+          <input className="contact__form-email" name="email" placeholder="Your Email" type="email" /><br />
+          <textarea className="contact__form-submit" name="message" /><br />
           <button>Send</button>
         </form>
       </section>
