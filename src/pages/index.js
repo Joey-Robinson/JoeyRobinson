@@ -48,7 +48,7 @@ const IndexPage = () => (
           data-netlify="true"
         >
           <input name="name" placeholder="Your Name" type="text" />
-          <input name="email" placeholder="name@name.com" type="email" />
+          <input name="email" placeholder="Your Email" type="email" />
           <textarea name="message" />
           <button>Send</button>
         </form>
