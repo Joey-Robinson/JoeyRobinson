@@ -58,7 +58,7 @@ const IndexPage = () => (
             <textarea className="contact__form-submit" name="message" />
           </div>
           <div class="form-example">
-            <input type="submit" value="Submit!" style={{ width: `30rem` }} />
+            <input type="submit" value="Submit!" style={{ width: `50rem` }} />
           </div>
         </form>
       </section>

@@ -83,9 +83,6 @@
         text-align: center;
       }
     }
-    button {
-      width: 25.6rem;
-    }
     &-form {
       grid-column: 1 / -1;
       grid-row: 2 / 5;
@@ -97,11 +94,11 @@
 
 input {
   font-size: 2rem;
-  width: 30rem;
+  width: 50rem;
 }
 
 textarea {
-  width: 30rem;
+  width: 50rem;
   height: 15rem;
 }
 
