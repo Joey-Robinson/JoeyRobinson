@@ -64,7 +64,7 @@
     }
   }
   &__contact {
-    text-align: center;
+    background: $headerWhite;
     overflow-x: hidden;
     grid-column: 2;
     grid-row: 3;
@@ -73,25 +73,47 @@
     height: 100vh;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    &-greeting {
+      grid-row: 1 / 3;
+      align-self: center;
+      justify-self: center;
+      grid-column: 1 / -1;
+      padding: 2rem 10rem;
+      h1 {
+        text-align: center;
+      }
+    }
     button {
-      width: 32rem;
+      width: 25.6rem;
     }
     &-form {
       grid-column: 1 / -1;
       grid-row: 2 / 5;
-      // justify-self: center;
+      align-self: center;
+      justify-self: center;
     }
   }
 }
 
-.contact__form-name,
-.contact__form-email,
-.contact__form-submit {
-  font-size: 2.5rem;
+input {
+  font-size: 2rem;
+  width: 30rem;
 }
 
-.contact__form-submit {
-  margin-top: 2.5rem;
-  width: 50rem;
-  height: 30rem;
+textarea {
+  width: 30rem;
+  height: 15rem;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+  // margin-bottom: 10px;
 }

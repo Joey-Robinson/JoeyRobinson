@@ -41,18 +41,25 @@ const IndexPage = () => (
       </section>
     </section>
     <section className="home__contact">
-      <h1>From Contact</h1>
+      <div className="home__contact-greeting">
+        <h1>From Greeting</h1>
+        <p>Are you a business looking for a new website or looking to hire?</p>
+        <p>Feel free to email me or use the contact form below to get in touch</p>
+      </div>
       <section className="home__contact-form contact__form">
-        <form
-          name="contact-form"
-          method="post"
-          data-netlify="true"
-        >
-          <input className="contact__form-name" name="name" placeholder="Your Name" type="text" /><br />
-          <input className="contact__form-email" name="email" placeholder="Your Email" type="email" /><br />
-          <input className="contact__form-email" name="email" placeholder="Your Email" type="email" /><br />
-          <textarea className="contact__form-submit" name="message" /><br />
-          <button>Send</button>
+        <form name="contact-form" method="post" class="form-example">
+          <div class="form-example">
+            <input placeholder="Name" type="text" name="name" id="name" required />
+          </div>
+          <div className="form-example">
+            <input placeholder="Email" type="email" name="email" id="email" required />
+          </div>
+          <div className="form-example">
+            <textarea className="contact__form-submit" name="message" />
+          </div>
+          <div class="form-example">
+            <input type="submit" value="Submit!" style={{ width: `30rem` }} />
+          </div>
         </form>
       </section>
     </section>
