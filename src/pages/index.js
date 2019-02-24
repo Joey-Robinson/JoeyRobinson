@@ -49,6 +49,7 @@ const IndexPage = () => (
         >
           <input name="name" placeholder="Your Name" type="text" />
           <input name="email" placeholder="name@name.com" type="email" />
+          <input name="email" placeholder="name@name.com" type="email" />
           <textarea name="message" placeholder="Make sure you leave your email here" />
           <button>Send</button>
         </form>
