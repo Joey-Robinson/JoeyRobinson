@@ -43,7 +43,7 @@ const IndexPage = () => (
     <section className="home__contact">
       <section className="home__contact-form">
         <form
-          name="contact"
+          name="contact-me"
           method="post"
           data-netlify="true"
         >
