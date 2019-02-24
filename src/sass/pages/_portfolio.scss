@@ -1,0 +1,12 @@
+.portfolio {
+  background: $baseWhite;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  justify-items: center;
+  a {
+    color: #000;
+  }
+}

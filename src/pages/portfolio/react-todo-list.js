@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-const Ssc = () => (
+const One = () => (
   <Layout>
-    <SEO title="SSC" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="One" keywords={[`gatsby`, `application`, `react`]} />
     <h1>From Work/One</h1>
-    <Link to="/work/pixabay-image-search/">Go Home</Link>
+    <Link to="/portfolio/pixabay-image-search/">Go Home</Link>
   </Layout>
 )
 
-export default Ssc
+export default One

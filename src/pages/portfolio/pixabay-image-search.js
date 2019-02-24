@@ -7,7 +7,7 @@ const Two = () => (
   <Layout>
     <SEO title="Two" keywords={[`gatsby`, `application`, `react`]} />
     <h1>From Work/Two</h1>
-    <Link to="/work/">Go To Work</Link>
+    <Link to="/portfolio/">Go To Work</Link>
   </Layout>
 )
 
