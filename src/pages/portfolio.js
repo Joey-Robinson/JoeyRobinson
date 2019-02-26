@@ -9,7 +9,10 @@ const Portfolio = () => (
     <section className="portfolio">
       <h1>From Work</h1>
       <Link to="/portfolio/sweetest-southern-creations">
-        SSC
+        Sweetest Southern Creations
+      </Link>
+      <Link to="/portfolio/pixabay-image-search">
+        Pixabay Image Search
       </Link>
     </section>
   </Layout>

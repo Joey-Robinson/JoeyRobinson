@@ -1,9 +1,13 @@
 import React from 'react'
 
-const WorkItem = (({ image, title, date, tech, goal, link }) => (
+const WorkItem = (({ imagesm, imagelg, title, date, tech, goal, livelink, ghlink }) => (
   <section className='workitem'>
     <div className='workitem__content'>
-      <div className="workitem__content-image"><img src={image} alt={title} /></div>
+      <div className="workitem__content-image">
+        <a target="_blank" rel="noopener" href={imagelg}>
+          <img src={imagesm} alt={title} />
+        </a>
+      </div>
       <div className="workitem__content-primary">
         <h2>{title}</h2>
         <p>{date}</p>
@@ -15,7 +19,12 @@ const WorkItem = (({ image, title, date, tech, goal, link }) => (
       <div className="workitem__content-goal">
         <h2 className='workitem__subtitle'>Goal</h2>
         <p>{goal}</p>
-        <a className='workitem__link' href={link} target='_blank' rel="noopener">Check it out</a>
+      </div>
+      <div className="workitem__content-livelink">
+        <h2>
+          <a className='workitem__link' href={livelink} target='_blank' rel="noopener">Check out the live site</a> -&nbsp;
+          <a className='workitem__link' href={ghlink} target='_blank' rel="noopener">Check out the repo</a>
+        </h2>
       </div>
     </div>
   </section>
