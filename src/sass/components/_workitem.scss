@@ -4,9 +4,18 @@
   grid-template-columns:3rem repeat(5, 1fr) 3rem;
   grid-template-rows: repeat(5, 1fr);
   height: 100vh;
-  a {
-    color: #000;
+  button {
+    border: 2px solid $headerWhite;
+    padding: 1.5rem 1rem;
+    background: linear-gradient(to bottom right, #3D72A4, #4d3da4);
+    color: $headerWhite;
+    width: 25rem;
+    font-size: 2rem;
+    cursor: pointer;
   }
+  // a {
+  //   color: #000;
+  // }
   &-image {
     grid-column: 4 / -1;
     grid-row: 1 / -1;
@@ -17,22 +26,25 @@
     }
   }
   &-primary {
+    align-self: end;
     padding: 3rem 0 0 0;
     justify-self: left;
     grid-column: 2 / 4;
     grid-row: 1;
   }
   &-secondary {
+    align-self: center;
     padding: 3rem 0 0 0;
     justify-self: left;
     grid-column: 2 / 4;
     grid-row: 2;
   }
   &-goal {
+    align-self: start;
     padding: 3rem 0 0 0;
     justify-self: left;
     grid-column: 2 / 4;
-    grid-row: 4;
+    grid-row: 3;
     p {
       padding: 0 3rem 0 0;
     }

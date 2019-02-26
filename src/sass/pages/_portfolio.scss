@@ -2,11 +2,64 @@
   background: $baseWhite;
   grid-column: 2;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   height: 100vh;
-  justify-items: center;
-  a {
-    color: #000;
+  justify-self: center;
+  div {
+    padding: 2px;
+  }
+  button {
+    border: 2px solid $headerWhite;
+    padding: 1.5rem 1rem;
+    background: linear-gradient(to bottom right, #3D72A4, #4d3da4);
+    color: $headerWhite;
+    width: 100%;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  &__ssc {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  &__calories {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  &__hoard {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  &__table {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  &__pixabay {
+    grid-column: 5;
+    grid-row: 1;
+  }
+  &__lyrics {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  &__todo {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  &__shellgame {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  &__ghibli {
+    grid-column: 4;
+    grid-row: 2;
+  }
+  &__soundboard {
+    grid-column: 5;
+    grid-row: 2;
   }
 }

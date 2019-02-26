@@ -22,8 +22,12 @@ const WorkItem = (({ imagesm, imagelg, title, date, tech, goal, livelink, ghlink
       </div>
       <div className="workitem__content-livelink">
         <h2>
-          <a className='workitem__link' href={livelink} target='_blank' rel="noopener">Check out the live site</a> -&nbsp;
-          <a className='workitem__link' href={ghlink} target='_blank' rel="noopener">Check out the repo</a>
+          <button>
+            <a className='workitem__link' href={livelink} target='_blank' rel="noopener">Check out the live site</a>
+          </button>
+          <button>
+            <a className='workitem__link' href={ghlink} target='_blank' rel="noopener">Check out the repo</a>
+          </button>
         </h2>
       </div>
     </div>
