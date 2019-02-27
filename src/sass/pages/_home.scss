@@ -13,8 +13,8 @@
       text-align: center;
     }
     a {
-      border: 2px solid $headerWhite;
-      padding: 1rem 1rem;
+      border: 3px solid $headerWhite;
+      padding: 2rem 2rem;
     }
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -112,5 +112,22 @@ div.form-example {
 
 label, input {
   display: table-cell;
-  // margin-bottom: 10px;
+}
+
+.submit {
+  border: 2px solid $headerWhite;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(to bottom right, #3D72A4, #4d3da4);
+  color: $headerWhite;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    animation: shadow-pulse infinite 1s;
+  }
+}
+
+[aria-current="page"] {
+  &::after {
+    content: " »";
+  }
 }

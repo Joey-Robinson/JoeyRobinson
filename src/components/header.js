@@ -16,6 +16,11 @@ const Header = () => (
           Portfolio
         </Link>
       </li>
+      <li>
+        <a target="_blank" rel="noopener" aria-label="Word Press Blog" href="https://jrobinsondev.wordpress.com/">
+          WP Blog
+        </a>
+      </li>
     </ul>
     <footer className="header__footer">
       <section className="header__footer-social">

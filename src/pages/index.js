@@ -44,13 +44,13 @@ const IndexPage = () => (
     </section>
     <section id="contact__form" className="home__contact">
       <div className="home__contact-greeting">
-        <h1>From Greeting</h1>
+        <h1>Contact Me</h1>
         <p>Are you a business looking for a new website or looking to hire?</p>
-        <p>Feel free to email me or use the contact form below to get in touch</p>
+        <p>Feel free to email me or use the contact form below to get in touch.</p>
       </div>
       <section className="home__contact-form contact__form">
-        <form name="contact-form" method="post" class="form-example">
-          <div class="form-example">
+        <form name="contact-form" method="post" className="form-example">
+          <div className="form-example">
             <input placeholder="Name" type="text" name="name" id="name" required />
           </div>
           <div className="form-example">
@@ -59,8 +59,8 @@ const IndexPage = () => (
           <div className="form-example">
             <textarea className="contact__form-submit" name="message" />
           </div>
-          <div class="form-example">
-            <input type="submit" value="Submit!" style={{ width: `30rem` }} />
+          <div className="form-example">
+            <input className="submit" type="submit" value="Submit!" style={{ width: `30rem` }} />
           </div>
         </form>
       </section>
