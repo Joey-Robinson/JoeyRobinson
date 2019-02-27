@@ -7,7 +7,6 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <section className="home">
       <section className="home__hero">
-        <div className="home__hero-scroll"></div>
         <div className="home__hero-content">
           <h1>Hi, I'm Joey Robinson</h1>
           <h3 style={{ textAlign: `center`, fontSize: `3rem` }}>Front-End Web Developer</h3>
@@ -22,6 +21,7 @@ const IndexPage = () => (
             Contact
         </a>
         </div>
+        <div className="home__hero-scroll"></div>
       </section>
     </section>
     <section className="home__about">
@@ -39,7 +39,7 @@ const IndexPage = () => (
         <p>
           Outside of development, I enjoy reading, watching movies, and playing a variety of games.
         </p>
-        <div className="home__about-scroll"></div>
+        {/* <div className="home__about-scroll"></div> */}
       </section>
     </section>
     <section id="contact__form" className="home__contact">

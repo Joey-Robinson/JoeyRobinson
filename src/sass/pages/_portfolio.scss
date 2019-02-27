@@ -9,18 +9,6 @@
   div {
     padding: 2px;
   }
-  button {
-    border: 2px solid $headerWhite;
-    padding: 1.5rem 1rem;
-    background: linear-gradient(to bottom right, #3D72A4, #4d3da4);
-    color: $headerWhite;
-    width: 100%;
-    font-size: 1.6rem;
-    cursor: pointer;
-    &:hover {
-      animation: shadow-pulse infinite 1s;
-    }
-  }
   img {
     width: 100%;
     height: auto;
