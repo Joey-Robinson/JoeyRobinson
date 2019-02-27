@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import pixabaysearch from '../../images/pixabaysearch.png'
+import pixabaysearch_tn from '../../images/pixabaysearch_tn.jpg'
 
 const Ssc = () => (
   <Layout>
     <SEO title="SSC" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={pixabaysearch}
+      imagesm={pixabaysearch_tn}
       imagelg={pixabaysearch}
       title="Pixabay Image Search"
       date="2019"

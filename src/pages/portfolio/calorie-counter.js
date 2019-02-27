@@ -3,13 +3,14 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import caloriecounter from '../../images/caloriecounter.png'
+import caloriecounter_tn from '../../images/caloriecounter_tn.jpg'
 
 const Caloriecounter = () => (
   <Layout>
     <SEO title="Calorie Counter" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={caloriecounter}
+      imagesm={caloriecounter_tn}
       imagelg={caloriecounter}
       title="Calorie Counter"
       date="2018"

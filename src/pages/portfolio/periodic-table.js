@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import periodictable from '../../images/periodictable.png'
+import periodictable_tn from '../../images/periodictable_tn.jpg'
 
 const PeriodicTable = () => (
   <Layout>
     <SEO title="Periodic Table" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={periodictable}
+      imagesm={periodictable_tn}
       imagelg={periodictable}
       title="Vanilla JavaScript Periodic Table"
       date="2019"

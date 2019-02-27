@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import tfsoundboard from '../../images/tfsoundboard.png'
+import tfsoundboard_tn from '../../images/tfsoundboard_tn.jpg'
 
 const TfSoundboard = () => (
   <Layout>
     <SEO title="<TF> Soundboard Hyjal" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={tfsoundboard}
+      imagesm={tfsoundboard_tn}
       imagelg={tfsoundboard}
       title="<TF> Soundboard"
       date="2019"

@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import shellgame from '../../images/shellgame.png'
+import shellgame_tn from '../../images/shellgame_tn.jpg'
 
 const ShellGame = () => (
   <Layout>
     <SEO title="Shell Game" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={shellgame}
+      imagesm={shellgame_tn}
       imagelg={shellgame}
       title="Shell Game"
       date="2018"

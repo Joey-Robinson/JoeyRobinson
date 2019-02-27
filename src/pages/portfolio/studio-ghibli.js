@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import studioghibli from '../../images/studioghibli.png'
+import studioghibli_tn from '../../images/studioghibli_tn.jpg'
 
 const StudioGhibli = () => (
   <Layout>
     <SEO title="Studio Ghibli Movies" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={studioghibli}
+      imagesm={studioghibli_tn}
       imagelg={studioghibli}
       title="Studio Ghibli Movies"
       date="2019"

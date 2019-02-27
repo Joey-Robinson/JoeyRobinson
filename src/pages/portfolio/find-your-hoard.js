@@ -3,13 +3,14 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import myhoard from '../../images/myhoard.png'
+import myhoard_tn from '../../images/myhoard_tn.jpg'
 
 const Hoard = () => (
   <Layout>
     <SEO title="Find Your Accursed Hoard" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={myhoard}
+      imagesm={myhoard_tn}
       imagelg={myhoard}
       title="Find Your Accursed Hoard"
       date="2018"

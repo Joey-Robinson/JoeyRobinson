@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import WorkItem from '../../components/workItem'
 import lyricsearch from '../../images/lyricsearch.png'
+import lyricsearch_tn from '../../images/lyricsearch_tn.jpg'
 
 const LyricSearch = () => (
   <Layout>
-    <SEO title="LyricSearch" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Lyric Search" keywords={[`gatsby`, `application`, `react`]} />
     .
     <WorkItem
-      imagesm={lyricsearch}
+      imagesm={lyricsearch_tn}
       imagelg={lyricsearch}
       title="Lyric Search"
       date="2019"
