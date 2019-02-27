@@ -39,7 +39,7 @@ const IndexPage = () => (
         <p>
           Outside of development, I enjoy reading, watching movies, and playing a variety of games.
         </p>
-        {/* <div className="home__about-scroll"></div> */}
+        <div className="home__about-scroll"></div>
       </section>
     </section>
     <section id="contact__form" className="home__contact">

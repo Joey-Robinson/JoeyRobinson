@@ -13,12 +13,14 @@
     grid-column: 1;
     grid-row: 1;
     width: 100vw;
-    height: 5rem;
+    height: auto;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    justify-items: left;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 2rem;
     & ul {
       columns: 3;
+      padding: 1rem 1rem;
+      text-align: center;
     }
   }
   &__links {
@@ -28,9 +30,9 @@
     grid-row: 2;
     grid-column: 1;
     @include respond(phone) {
-      word-spacing: 0;
+      text-align: initial;
       grid-row: 1;
-      grid-column: 1;
+      grid-column: 1 / -1;
       font-size: 2rem;
       align-self: end;
       padding: 0;
