@@ -17,7 +17,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a target="_blank" rel="noopener" aria-label="Word Press Blog" href="https://jrobinsondev.wordpress.com/">
+        <a target="_blank" rel="noopener noreferrer" aria-label="Word Press Blog" href="https://jrobinsondev.wordpress.com/">
           WP Blog
         </a>
       </li>

@@ -4,7 +4,7 @@ const WorkItem = (({ imagesm, imagelg, title, date, tech, goal, livelink, ghlink
   <section className='workitem'>
     <div className='workitem__content'>
       <div className="workitem__content-image">
-        <a target="_blank" rel="noopener" href={imagelg}>
+        <a target="_blank" rel="noopener noreferrer" href={imagelg}>
           <img src={imagesm} alt={title} />
         </a>
       </div>
@@ -23,10 +23,10 @@ const WorkItem = (({ imagesm, imagelg, title, date, tech, goal, livelink, ghlink
       <div className="workitem__content-livelink">
         <h2>
           <button>
-            <a className='workitem__link' href={livelink} target='_blank' rel="noopener">Check out the live site</a>
+            <a className='workitem__link' href={livelink} target='_blank' rel="noopener noreferrer">Check out the live site</a>
           </button>
           <button>
-            <a className='workitem__link' href={ghlink} target='_blank' rel="noopener">Check out the repo</a>
+            <a className='workitem__link' href={ghlink} target='_blank' rel="noopener noreferrer">Check out the repo</a>
           </button>
         </h2>
       </div>

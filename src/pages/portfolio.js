@@ -36,8 +36,8 @@ const Portfolio = () => (
     <SEO title="Portfolio" keywords={[`gatsby`, `application`, `react`]} />
     <section className="portfolio">
       <div className="portfolio__ssc">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={ssc}>
-          <img src={ssc_tn} alt="Sweetest Southern Creations Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={ssc}>
+          <img src={ssc_tn} alt="Sweetest Southern Creations Portfolio" />
         </a>
         <Link to="/portfolio/sweetest-southern-creations">
           <button>
@@ -46,8 +46,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__calories">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={caloriecounter}>
-          <img src={caloriecounter_tn} alt="Vanilla JavaScript Calorie Counter Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={caloriecounter}>
+          <img src={caloriecounter_tn} alt="Vanilla JavaScript Calorie Counter Portfolio" />
         </a>
         <Link to="/portfolio/calorie-counter">
           <button>
@@ -56,8 +56,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__hoard">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={myhoard}>
-          <img src={myhoard_tn} alt="Accursed Hoard Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={myhoard}>
+          <img src={myhoard_tn} alt="Accursed Hoard Portfolio" />
         </a>
         <Link to="/portfolio/find-your-hoard">
           <button>
@@ -66,8 +66,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__table">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={periodictable}>
-          <img src={periodictable_tn} alt="Vanilla JavaScript Periodic Table Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={periodictable}>
+          <img src={periodictable_tn} alt="Vanilla JavaScript Periodic Table Portfolio" />
         </a>
         <Link to="/portfolio/periodic-table">
           <button>
@@ -76,8 +76,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__pixabay">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={pixabaysearch}>
-          <img src={pixabaysearch_tn} alt="Pixabay Image Search Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={pixabaysearch}>
+          <img src={pixabaysearch_tn} alt="Pixabay Search Portfolio" />
         </a>
         <Link to="/portfolio/pixabay-image-search">
           <button>
@@ -86,8 +86,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__lyrics">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={lyricsearch}>
-          <img src={lyricsearch_tn} alt="React Lyric Search Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={lyricsearch}>
+          <img src={lyricsearch_tn} alt="React Lyric Search Portfolio" />
         </a>
         <Link to="/portfolio/react-lyric-search">
           <button>
@@ -96,8 +96,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__todo">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={reacttodo}>
-          <img src={reacttodo_tn} alt="React Simple Todo List Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={reacttodo}>
+          <img src={reacttodo_tn} alt="React Simple Todo List Portfolio" />
         </a>
         <Link to="/portfolio/react-todo-list">
           <button>
@@ -106,8 +106,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__shellgame">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={shellgame}>
-          <img src={shellgame_tn} alt="Shell Game Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={shellgame}>
+          <img src={shellgame_tn} alt="Shell Game Portfolio" />
         </a>
         <Link to="/portfolio/shell-game">
           <button>
@@ -116,8 +116,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__ghibli">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={studioghibli}>
-          <img src={studioghibli_tn} alt="Studio Ghibli Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={studioghibli}>
+          <img src={studioghibli_tn} alt="Studio Ghibli Portfolio" />
         </a>
         <Link to="/portfolio/studio-ghibli">
           <button>
@@ -126,8 +126,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__soundboard">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={tfsoundboard}>
-          <img src={tfsoundboard_tn} alt="TF Soundboard Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={tfsoundboard}>
+          <img src={tfsoundboard_tn} alt="TF Soundboard Portfolio" />
         </a>
         <Link to="/portfolio/tf-soundboard">
           <button>
@@ -136,8 +136,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__numbers">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={numberguesser}>
-          <img src={numberguesser_tn} alt="Number Guesser Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={numberguesser}>
+          <img src={numberguesser_tn} alt="Number Guesser Portfolio" />
         </a>
         <Link to="/portfolio/number-guesser">
           <button>
@@ -146,8 +146,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__chuck">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={chuckjokes}>
-          <img src={chuckjokes_tn} alt="Chuck Norris Joke Generator Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={chuckjokes}>
+          <img src={chuckjokes_tn} alt="Chuck Norris Joke Generator Portfolio" />
         </a>
         <Link to="/portfolio/chuck">
           <button>
@@ -156,8 +156,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__jstodo">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={jstodo}>
-          <img src={jstodo_tn} alt="Vanilla JavaScript Todo List Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={jstodo}>
+          <img src={jstodo_tn} alt="Vanilla JavaScript Todo List Portfolio" />
         </a>
         <Link to="/portfolio/js-todo-list">
           <button>
@@ -166,8 +166,8 @@ const Portfolio = () => (
         </Link>
       </div>
       <div className="portfolio__mysidia">
-        <a target="_blank" rel="noopener" aria-label="Full Size Image Link For Portfolio Section" href={mysidia}>
-          <img src={mysidia_tn} alt="Mysidia Website Portfolio Image" />
+        <a target="_blank" rel="noopener noreferrer" aria-label="Full Size Image Link For Portfolio Section" href={mysidia}>
+          <img src={mysidia_tn} alt="Mysidia Website Portfolio" />
         </a>
         <Link to="/portfolio/mysidia">
           <button>
