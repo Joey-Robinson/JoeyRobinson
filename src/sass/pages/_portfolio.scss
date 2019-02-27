@@ -17,6 +17,9 @@
     width: 100%;
     font-size: 1.6rem;
     cursor: pointer;
+    &:hover {
+      animation: shadow-pulse infinite 1s;
+    }
   }
   img {
     width: 100%;
@@ -61,5 +64,21 @@
   &__soundboard {
     grid-column: 5;
     grid-row: 2;
+  }
+  &__numbers {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  &__chuck {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  &__jstodo {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  &__mysidia {
+    grid-column: 4;
+    grid-row: 3;
   }
 }
