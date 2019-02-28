@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import '../sass/main.scss'
-import Footer from "./footer";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -21,7 +20,6 @@ const Layout = ({ children }) => (
         <div className="primary">
           <Header siteTitle={data.site.siteMetadata.title} />
           {children}
-          <Footer />
         </div>
       </>
     )}

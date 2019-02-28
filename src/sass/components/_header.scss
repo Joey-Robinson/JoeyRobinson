@@ -14,7 +14,7 @@
     grid-row: 1;
     width: 100vw;
     height: auto;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-columns: repeat(3, 1fr);
     font-size: 2rem;
     & ul {
@@ -31,7 +31,7 @@
     grid-column: 1;
     @include respond(phone) {
       text-align: initial;
-      grid-row: 1;
+      grid-row: 2;
       grid-column: 1 / -1;
       font-size: 2rem;
       align-self: end;
@@ -48,9 +48,16 @@
     text-align: center;
     color: $headerWhite;
     @include respond(phone) {
-      display: none;
-      grid-column: -1;
+      grid-column: 1 / -1;
       grid-row: 1;
+      p {
+        display: none;
+      }
+      svg {
+        padding: 1rem 0 0 0;
+        width: 2.5rem;
+        height: 2.5rem;
+      }
     }
     p {
       padding: 5px 0 5px 0;
