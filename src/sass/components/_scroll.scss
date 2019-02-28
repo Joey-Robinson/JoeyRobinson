@@ -9,6 +9,10 @@
     grid-column: 2;
     grid-row: 4;
   }
+  @include respond(tabPort) {
+    grid-column: 3;
+    grid-row: 5;
+  }
 }
 
 .home__hero-scroll {
@@ -26,6 +30,9 @@
     height: 6.5rem;
     grid-column: 2;
     grid-row: 4;
+  }
+  @include respond(tabPort) {
+    margin: 0 0 2rem 4.2rem;
   }
 }
 
@@ -56,6 +63,10 @@
     grid-column: 2;
     grid-row: 4;
   }
+  @include respond(tabPort) {
+    grid-column: 3;
+    grid-row: 5;
+  }
 }
 
 .home__about-scroll {
@@ -70,6 +81,10 @@
   @include respond(phone) {
     display: none;
   }
+  @include respond(tabPort) {
+    margin: 5rem 0 2rem 4.2rem;
+  }
+
 }
 
 .home__about-scroll::before {

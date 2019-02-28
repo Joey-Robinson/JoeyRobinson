@@ -14,11 +14,18 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(13, 1fr);
   }
+  @include respond(tabPort) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13, 1fr);
+  }
   div {
     padding: 2px;
     @include respond(phone) {
       width: 100%;
       padding: 5px 1rem;
+    }
+    @include respond(tabPort) {
+      padding: 1rem 1rem;
     }
   }
   img { 
@@ -32,11 +39,19 @@
       grid-column: 1;
       grid-row: 1;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
   &__calories {
     grid-column: 2;
     grid-row: 1;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 2;
     }
@@ -48,11 +63,19 @@
       grid-column: 1;
       grid-row: 3;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 3;
+    }
   }
   &__table {
     grid-column: 4;
     grid-row: 1;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 4;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 4;
     }
@@ -64,11 +87,19 @@
       grid-column: 1;
       grid-row: 5;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 5;
+    }
   }
   &__lyrics {
     grid-column: 1;
     grid-row: 2;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 6;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 6;
     }
@@ -80,11 +111,19 @@
       grid-column: 1;
       grid-row: 7;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 7;
+    }
   }
   &__shellgame {
     grid-column: 3;
     grid-row: 2;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 8;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 8;
     }
@@ -96,11 +135,19 @@
       grid-column: 1;
       grid-row: 9;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 9;
+    }
   }
   &__soundboard {
     grid-column: 5;
     grid-row: 2;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 10;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 10;
     }
@@ -112,11 +159,19 @@
       grid-column: 1;
       grid-row: 11;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 11;
+    }
   }
   &__chuck {
     grid-column: 2;
     grid-row: 3;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 12;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 12;
     }
@@ -128,11 +183,19 @@
       grid-column: 1;
       grid-row: 13;
     }
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 13;
+    }
   }
   &__mysidia {
     grid-column: 4;
     grid-row: 3;
     @include respond(phone) {
+      grid-column: 1;
+      grid-row: 14;
+    }
+    @include respond(tabPort) {
       grid-column: 1;
       grid-row: 14;
     }

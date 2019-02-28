@@ -5,9 +5,19 @@
   overflow-y: scroll;
   min-height: 100vh;
   width: 100vw;
+  // @include respond(tabLand) {
+  //   overflow-x: hidden;
+  //   grid-template-columns: 2rem 95vw;
+  //   grid-template-rows: 100vh;
+  // }
   @include respond(phone) {
     grid-template-columns: 100vw;
-    grid-template-rows: 5rem 100vh;
+    grid-template-rows: 5rem 100vh repeat(5, auto);
     overflow-x: hidden;
+  }
+  @include respond(tabLand) {
+    overflow-x: hidden;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 100vh;
   }
 }

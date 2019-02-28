@@ -38,6 +38,9 @@
       padding: 0;
       margin: 0;
     }
+    @include respond(tabPort) {
+      font-size: 2rem;
+    }
   }
   &__footer {
     grid-row: -1;
