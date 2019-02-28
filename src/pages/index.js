@@ -12,7 +12,7 @@ const IndexPage = () => (
           <h3 style={{ textAlign: `center`, fontSize: `3rem` }}>Front-End Web Developer</h3>
         </div>
         <div className="home__hero-resume">
-          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1HRQEQh3H2cQByBodL5LaqHrlbMfeYxHC/view?ths=true" className="home__hero-button">
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1g-bpV1xpP2X52QRwqXWvScOIIK5cxENC" className="home__hero-button">
             Resume
         </a>
         </div>
