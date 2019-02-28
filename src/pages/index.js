@@ -21,7 +21,7 @@ const IndexPage = () => (
             Contact
         </a>
         </div>
-        <div className="home__hero-scroll"></div>
+        <div className="home__hero-arrow"></div>
       </section>
     </section>
     <section className="home__about">
@@ -39,8 +39,8 @@ const IndexPage = () => (
         <p>
           Outside of development, I enjoy reading, watching movies, and playing a variety of games.
         </p>
-        <div className="home__about-scroll"></div>
       </section>
+      <div className="home__about-arrow"></div>
     </section>
     <section id="contact__form" className="home__contact">
       <div className="home__contact-greeting">

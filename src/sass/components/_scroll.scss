@@ -1,102 +1,28 @@
-.home__hero-scroll, 
-.home__hero-scroll:before {
-  position: absolute;
-  left: 50%;
+.home__hero-arrow {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
   grid-column: 3;
   grid-row: 5;
-  @include respond(phone) {
-    left: 50%;
-    grid-column: 2;
-    grid-row: 4;
-  }
-  @include respond(tabPort) {
-    grid-column: 3;
-    grid-row: 5;
-  }
-}
-
-.home__hero-scroll {
   justify-self: center;
   align-self: end;
-  margin: 0 0 3rem 8rem;
-  width: 4rem;
-  height: 7rem;
-  margin-top: 4rem;
-  box-shadow: inset 0 0 0 1px #fff;
-  border-radius: 2.5rem;
-  @include respond(tabPort) {
-    margin: 0 0 2rem 4.2rem;
-  }
-  @include respond(phone) {
-    margin: 2rem 0 7rem -13px;
-    width: 3rem;
-    height: 6.5rem;
-    grid-column: 2;
-    grid-row: 4;
-  }
-}
-
-.home__hero-scroll::before {
-  content: '';
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
+  margin: 0 0 3rem 0;
 }
 
 
-
-
-.home__about-scroll, 
-.home__about-scroll:before {
-  position: absolute;
-  left: 50%;
+.home__about-arrow {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
   grid-column: 3;
   grid-row: 5;
-  @include respond(phone) {
-    left: 50%;
-    grid-column: 2;
-    grid-row: 4;
-  }
-  @include respond(tabPort) {
-    grid-column: 3;
-    grid-row: 5;
-  }
-}
-
-.home__about-scroll {
   justify-self: center;
   align-self: end;
-  margin: 0 0 3rem 8rem;
-  width: 4rem;
-  height: 7rem;
-  margin-top: 4rem;
-  box-shadow: inset 0 0 0 1px #000;
-  border-radius: 2.5rem;
-
-  @include respond(tabPort) {
-    display: none;
-  }
-  @include respond(phone) {
-    display: none;
-  }
-
-}
-
-.home__about-scroll::before {
-  content: '';
-  width: 8px;
-  height: 8px;
-  background: #000;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
+  margin: 0 0 3rem 0;
 }
