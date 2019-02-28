@@ -4,7 +4,7 @@ import React from "react"
 import { FaGithub, FaLinkedinIn, FaTwitter, FaGoogle } from 'react-icons/fa/index'
 
 const Header = () => (
-  <nav className="header">
+  <nav name="Header" className="header">
     <ul className="header__links">
       <li>
         <Link to="/">

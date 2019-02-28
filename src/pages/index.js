@@ -28,13 +28,13 @@ const IndexPage = () => (
       <section className="home__about-blurb">
         <h1>ABOUT</h1>
         <p>
-          I am passionate about Web Development and building web applications and websites. I am self-taught and have been expanding my skills by continously learning development technologies and skills that I frequently put into use.
+          I am passionate about Web Development and building web applications and websites. I am self-taught and have been expanding my skills by continously learning web development technologies and skills that I frequently put to use.
         </p>
         <p>
-          I started learning web development a couple of years ago. I had been taking care of my mother prior to her passing and had no real direction in life. I was introduced to FreeCodeCamp, and was hook instantly. I enjoy making websites and seeing my ideas come to life. Using my portfolio of web apps and websites, I am eagerly looking forward to finding a job in this indurstry.
+          I started learning web development a couple of years ago. I was introduced to FreeCodeCamp, and was hook instantly. I enjoy making websites and seeing my ideas come to life using the skills I've taught myself. Using my portfolio of web apps and websites, I am eagerly looking to pursue a more professional environment to hone and develop my skills.
         </p>
         <p>
-          While I'm still actively pursing a career in this industry, I am still developing websites and web apps. I'm highly motivated and I have a strong attention to detail. One of my golas is to build web applications with the best practices and latest technologies.
+          I'm highly motivated and have a strong attention to detail. One of my goals is to build web applications with the best practices and latest technologies. I continue daily to practice and use my skills to create new and exciting things.
         </p>
         <p>
           Outside of development, I enjoy reading, watching movies, and playing a variety of games.
