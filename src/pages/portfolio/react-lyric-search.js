@@ -17,8 +17,7 @@ const LyricSearch = () => (
       tech="React, MusixMatch API, axios, momentjs, react-router"
       goal="To make the MusixMatch API to search for popular song lyrics"
       livelink="https://react-lyric-searches.netlify.com/"
-      ghlink="https://github.com/Joey-Robinson/react-lyric-search" /
-    >
+      ghlink="https://github.com/Joey-Robinson/react-lyric-search" />
   </Layout>
 )
 
