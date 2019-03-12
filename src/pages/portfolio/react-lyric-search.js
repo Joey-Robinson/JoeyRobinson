@@ -7,18 +7,18 @@ import lyricsearch_tn from '../../images/lyricsearch_tn.jpg'
 
 const LyricSearch = () => (
   <Layout>
-    <SEO title="Lyric Search" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="SSC" keywords={[`gatsby`, `application`, `react`]} />
     .
-    <WorkItem
+  <WorkItem
       imagesm={lyricsearch_tn}
       imagelg={lyricsearch}
       title="Lyric Search"
       date="2019"
       tech="React, MusixMatch API, axios, momentjs, react-router"
       goal="To make the MusixMatch API to search for popular song lyrics"
-      livelink="https://vjs-calorie-counter.netlify.com/"
-      ghlink="https://github.com/Joey-Robinson/react-lyric-search"
-    />
+      livelink="https://react-lyric-searches.netlify.com/"
+      ghlink="https://github.com/Joey-Robinson/react-lyric-search" /
+    >
   </Layout>
 )
 
